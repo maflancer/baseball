@@ -12,7 +12,9 @@ function App() {
   const [tabValue, setTabValue] = useState(0);
 
   useEffect(() => {
-    d3.csv("/data/leaders_2024.csv")
+    const basePath = import.meta.env.BASE_URL;
+
+    d3.csv(`${basePath}data/leaders_2024.csv`)
       .then((data) => {
         setWeeklyData(data);
       })
@@ -20,7 +22,9 @@ function App() {
   }, []);
 
   useEffect(() => {
-    d3.csv("/data/stats_2024.csv")
+    const basePath = import.meta.env.BASE_URL;
+
+    d3.csv(`${basePath}data/stats_2024.csv`)
       .then((data) => {
         setTeamData(data);
       })
