@@ -1,3 +1,3 @@
-# Fantasy Baseball Stats
+# Fantasy Baseball Stats (Using React and Vite)
 
 ### This [website](https://maflancer.github.io/baseball/) displays stats for my Yahoo Fantasy Baseball league. All stats are fetched using scripts in this repo: _. 
