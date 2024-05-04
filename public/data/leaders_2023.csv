@@ -1,0 +1,253 @@
+week,stat,teams,val
+1,R,Nate's Team,64.0
+1,HR,"Gabe's Babes,Dante's Nice Team",17.0
+1,RBI,Zach's Wheelers,62.0
+1,SB,Matt in the Hat,13.0
+1,TB,Zach's Wheelers,188.0
+1,AVG,Zach's Wheelers,0.309
+1,OBP,Zach's Wheelers,0.375
+1,IP,Matt in the Hat,89.1
+1,K,Matt in the Hat,103.0
+1,ERA,Quovnobble's Unreal Team,1.82
+1,WHIP,Quovnobble's Unreal Team,0.99
+1,SV,"Matt in the Hat,Gabe's Babes",9.0
+2,R,Gabe's Babes,48.0
+2,HR,Gabe's Babes,17.0
+2,RBI,Steak Strahmboli,51.0
+2,SB,Matt in the Hat,12.0
+2,TB,Gabe's Babes,131.0
+2,AVG,Yanier? I hardly knew her!,0.303
+2,OBP,Matt in the Hat,0.404
+2,IP,David's Team,68.0
+2,K,David's Team,72.0
+2,ERA,Menessin' Around,1.36
+2,WHIP,Menessin' Around,0.78
+2,SV,"Rhys's & Royce's ACL,Gabe's Babes,Menessin' Around",6.0
+3,R,Zach's Wheelers,44.0
+3,HR,Zach's Wheelers,16.0
+3,RBI,Menessin' Around,45.0
+3,SB,David's Team,10.0
+3,TB,Zach's Wheelers,129.0
+3,AVG,Gabe's Babes,0.288
+3,OBP,Zach's Wheelers,0.363
+3,IP,Gabe's Babes,75.0
+3,K,Matt in the Hat,86.0
+3,ERA,Yanier? I hardly knew her!,1.84
+3,WHIP,Yanier? I hardly knew her!,0.82
+3,SV,Matt in the Hat,8.0
+4,R,Gabe's Babes,38.0
+4,HR,Quovnobble's Unreal Team,12.0
+4,RBI,Quovnobble's Unreal Team,39.0
+4,SB,David's Team,10.0
+4,TB,Quovnobble's Unreal Team,110.0
+4,AVG,David's Team,0.284
+4,OBP,"Steak Strahmboli,David's Team",0.349
+4,IP,Zach's Wheelers,66.1
+4,K,Zach's Wheelers,75.0
+4,ERA,Yanier? I hardly knew her!,1.85
+4,WHIP,Yanier? I hardly knew her!,0.82
+4,SV,"Jose's Clock Violators,Yanier? I hardly knew her!,Gabe's Babes,David's Team",6.0
+5,R,David's Team,46.0
+5,HR,"Quovnobble's Unreal Team,Gabe's Babes,Yanier? I hardly knew her!",13.0
+5,RBI,Gabe's Babes,46.0
+5,SB,Rhys's & Royce's ACL,9.0
+5,TB,Gabe's Babes,127.0
+5,AVG,Quovnobble's Unreal Team,0.305
+5,OBP,Quovnobble's Unreal Team,0.392
+5,IP,Nate's Team,67.1
+5,K,Zach's Wheelers,65.0
+5,ERA,David's Team,2.55
+5,WHIP,David's Team,0.98
+5,SV,Gabe's Babes,10.0
+6,R,Zach's Wheelers,37.0
+6,HR,"Rhys's & Royce's ACL,Nate's Team",11.0
+6,RBI,Gabe's Babes,41.0
+6,SB,"Yanier? I hardly knew her!,Matt in the Hat",10.0
+6,TB,David's Team,107.0
+6,AVG,Gabe's Babes,0.277
+6,OBP,Zach's Wheelers,0.346
+6,IP,Rhys's & Royce's ACL,76.0
+6,K,Nate's Team,85.0
+6,ERA,Gabe's Babes,2.14
+6,WHIP,Steak Strahmboli,0.84
+6,SV,Gabe's Babes,10.0
+7,R,Zach's Wheelers,42.0
+7,HR,Nate's Team,15.0
+7,RBI,Nate's Team,46.0
+7,SB,David's Team,13.0
+7,TB,Nate's Team,128.0
+7,AVG,Quovnobble's Unreal Team,0.302
+7,OBP,Quovnobble's Unreal Team,0.385
+7,IP,Jose's Clock Violators,71.1
+7,K,Matt in the Hat,74.0
+7,ERA,Steak Strahmboli,2.33
+7,WHIP,Steak Strahmboli,1.09
+7,SV,Gabe's Babes,9.0
+8,R,Steak Strahmboli,43.0
+8,HR,Steak Strahmboli,14.0
+8,RBI,Jose's Clock Violators,44.0
+8,SB,Rhys's & Royce's ACL,10.0
+8,TB,Steak Strahmboli,128.0
+8,AVG,Steak Strahmboli,0.308
+8,OBP,"Steak Strahmboli,Gabe's Babes",0.376
+8,IP,"Quovnobble's Unreal Team,Gabe's Babes",78.2
+8,K,Gabe's Babes,87.0
+8,ERA,Gabe's Babes,2.4
+8,WHIP,Gabe's Babes,1.13
+8,SV,Jose's Clock Violators,8.0
+9,R,"Jose's Clock Violators,Nate's Team,Quovnobble's Unreal Team",33.0
+9,HR,Menessin' Around,11.0
+9,RBI,Yanier? I hardly knew her!,36.0
+9,SB,Quovnobble's Unreal Team,12.0
+9,TB,Zach's Wheelers,105.0
+9,AVG,Zach's Wheelers,0.28
+9,OBP,Jose's Clock Violators,0.347
+9,IP,Matt in the Hat,82.1
+9,K,Matt in the Hat,82.0
+9,ERA,Yanier? I hardly knew her!,1.84
+9,WHIP,Steak Strahmboli,0.99
+9,SV,Steak Strahmboli,9.0
+10,R,"Matt in the Hat,Nate's Team",40.0
+10,HR,Nate's Team,15.0
+10,RBI,Nate's Team,41.0
+10,SB,"Matt in the Hat,Nate's Team",9.0
+10,TB,Nate's Team,120.0
+10,AVG,Matt in the Hat,0.303
+10,OBP,Quovnobble's Unreal Team,0.372
+10,IP,Nate's Team,81.0
+10,K,Nate's Team,78.0
+10,ERA,Nate's Team,2.22
+10,WHIP,Dante's Nice Team,0.78
+10,SV,Gabe's Babes,8.0
+11,R,Matt in the Hat,53.0
+11,HR,Jose's Clock Violators,14.0
+11,RBI,Steak Strahmboli,46.0
+11,SB,Matt in the Hat,14.0
+11,TB,"Matt in the Hat,David's Team",139.0
+11,AVG,Matt in the Hat,0.333
+11,OBP,Matt in the Hat,0.411
+11,IP,Jose's Clock Violators,78.1
+11,K,Jose's Clock Violators,92.0
+11,ERA,Gabe's Babes,2.41
+11,WHIP,Nate's Team,1.03
+11,SV,Steak Strahmboli,8.0
+12,R,Nate's Team,41.0
+12,HR,Quovnobble's Unreal Team,16.0
+12,RBI,Quovnobble's Unreal Team,54.0
+12,SB,"Matt in the Hat,Steak Strahmboli",11.0
+12,TB,Quovnobble's Unreal Team,128.0
+12,AVG,Gabe's Babes,0.315
+12,OBP,Gabe's Babes,0.396
+12,IP,Nate's Team,92.2
+12,K,Nate's Team,97.0
+12,ERA,Yanier? I hardly knew her!,2.57
+12,WHIP,Jose's Clock Violators,1.04
+12,SV,"Gabe's Babes,Zach's Wheelers",9.0
+13,R,Nate's Team,42.0
+13,HR,Nate's Team,16.0
+13,RBI,Matt in the Hat,43.0
+13,SB,"Matt in the Hat,David's Team,Dante's Nice Team",8.0
+13,TB,Nate's Team,129.0
+13,AVG,Matt in the Hat,0.288
+13,OBP,"Nate's Team,Gabe's Babes",0.348
+13,IP,Quovnobble's Unreal Team,82.2
+13,K,Quovnobble's Unreal Team,76.0
+13,ERA,Steak Strahmboli,2.66
+13,WHIP,Menessin' Around,0.86
+13,SV,Gabe's Babes,8.0
+14,R,"Gabe's Babes,Nate's Team",41.0
+14,HR,Menessin' Around,17.0
+14,RBI,Menessin' Around,45.0
+14,SB,Nate's Team,13.0
+14,TB,Quovnobble's Unreal Team,120.0
+14,AVG,Nate's Team,0.283
+14,OBP,Nate's Team,0.36
+14,IP,Nate's Team,82.2
+14,K,Nate's Team,89.0
+14,ERA,Matt in the Hat,1.95
+14,WHIP,Matt in the Hat,1.0
+14,SV,"Gabe's Babes,David's Team",8.0
+15,R,Nate's Team,67.0
+15,HR,"David's Team,Nate's Team",22.0
+15,RBI,Nate's Team,67.0
+15,SB,Matt in the Hat,14.0
+15,TB,Nate's Team,189.0
+15,AVG,Dante's Nice Team,0.29
+15,OBP,Dante's Nice Team,0.376
+15,IP,Matt in the Hat,122.2
+15,K,Matt in the Hat,111.0
+15,ERA,Zach's Wheelers,3.17
+15,WHIP,Steak Strahmboli,1.13
+15,SV,Gabe's Babes,17.0
+16,R,David's Team,43.0
+16,HR,David's Team,17.0
+16,RBI,David's Team,51.0
+16,SB,Matt in the Hat,9.0
+16,TB,David's Team,128.0
+16,AVG,Yanier? I hardly knew her!,0.292
+16,OBP,"Quovnobble's Unreal Team,Nate's Team",0.361
+16,IP,Matt in the Hat,69.2
+16,K,Nate's Team,73.0
+16,ERA,Gabe's Babes,2.28
+16,WHIP,Jose's Clock Violators,0.94
+16,SV,Gabe's Babes,7.0
+17,R,Quovnobble's Unreal Team,44.0
+17,HR,"Yanier? I hardly knew her!,Menessin' Around",17.0
+17,RBI,Matt in the Hat,44.0
+17,SB,Matt in the Hat,14.0
+17,TB,Quovnobble's Unreal Team,134.0
+17,AVG,Gabe's Babes,0.32
+17,OBP,Gabe's Babes,0.393
+17,IP,Matt in the Hat,92.1
+17,K,Matt in the Hat,89.0
+17,ERA,David's Team,2.84
+17,WHIP,David's Team,0.95
+17,SV,"Gabe's Babes,Zach's Wheelers",9.0
+18,R,Matt in the Hat,47.0
+18,HR,David's Team,13.0
+18,RBI,Rhys's & Royce's ACL,46.0
+18,SB,Yanier? I hardly knew her!,11.0
+18,TB,Matt in the Hat,126.0
+18,AVG,Dante's Nice Team,0.331
+18,OBP,Dante's Nice Team,0.408
+18,IP,David's Team,91.2
+18,K,David's Team,89.0
+18,ERA,Jose's Clock Violators,2.13
+18,WHIP,Menessin' Around,0.95
+18,SV,"Jose's Clock Violators,Quovnobble's Unreal Team",7.0
+19,R,Steak Strahmboli,50.0
+19,HR,Steak Strahmboli,17.0
+19,RBI,Steak Strahmboli,61.0
+19,SB,Steak Strahmboli,9.0
+19,TB,Steak Strahmboli,162.0
+19,AVG,Steak Strahmboli,0.33
+19,OBP,Steak Strahmboli,0.386
+19,IP,Nate's Team,75.2
+19,K,Matt in the Hat,74.0
+19,ERA,Zach's Wheelers,2.03
+19,WHIP,Menessin' Around,1.06
+19,SV,Zach's Wheelers,8.0
+20,R,Nate's Team,44.0
+20,HR,Steak Strahmboli,18.0
+20,RBI,David's Team,48.0
+20,SB,"Nate's Team,David's Team",11.0
+20,TB,Quovnobble's Unreal Team,139.0
+20,AVG,Quovnobble's Unreal Team,0.343
+20,OBP,Quovnobble's Unreal Team,0.396
+20,IP,Quovnobble's Unreal Team,77.0
+20,K,Menessin' Around,88.0
+20,ERA,Matt in the Hat,2.47
+20,WHIP,Menessin' Around,0.86
+20,SV,"Jose's Clock Violators,Gabe's Babes",7.0
+21,R,Matt in the Hat,51.0
+21,HR,Matt in the Hat,21.0
+21,RBI,Matt in the Hat,49.0
+21,SB,"Dante's Nice Team,Matt in the Hat",9.0
+21,TB,Matt in the Hat,150.0
+21,AVG,Yanier? I hardly knew her!,0.29
+21,OBP,Yanier? I hardly knew her!,0.378
+21,IP,Matt in the Hat,74.2
+21,K,Matt in the Hat,73.0
+21,ERA,Steak Strahmboli,2.52
+21,WHIP,Jose's Clock Violators,1.16
+21,SV,"Rhys's & Royce's ACL,Zach's Wheelers",9.0
