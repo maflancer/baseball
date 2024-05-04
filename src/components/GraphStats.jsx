@@ -14,7 +14,7 @@ import {
 
 function GraphStats({ data }) {
   const [selectedStat, setSelectedStat] = useState("R");
-  const [selectedTeams, setSelectedTeams] = useState(["ALL"]); // Default to 'ALL'
+  const [selectedTeams, setSelectedTeams] = useState(["ALL"]);
   const [plotData, setPlotData] = useState([]);
 
   const stats = [
@@ -31,7 +31,7 @@ function GraphStats({ data }) {
     "WHIP",
     "SV",
   ];
-  const teamNames = [...new Set(data.map((item) => item.team_name))]; // Extract team names from data
+  const teamNames = [...new Set(data.map((item) => item.team_name))];
 
   useEffect(() => {
     if (data.length > 0) {
@@ -62,7 +62,6 @@ function GraphStats({ data }) {
     const {
       target: { value },
     } = event;
-    // Check if the 'ALL' option needs to be handled separately
     if (value[value.length - 1] === "ALL" || value.length === 0) {
       setSelectedTeams(["ALL"]);
     } else if (value.includes("ALL")) {
