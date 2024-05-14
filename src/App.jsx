@@ -14,11 +14,13 @@ import {
 import WeeklyStatLeaders from "./components/WeeklyStatLeaders";
 import TeamStats from "./components/TeamStats";
 import GraphStats from "./components/GraphStats";
+import Standings from "./components/Standings";
 
 function App() {
   const [year, setYear] = useState(2024);
   const [weeklyData, setWeeklyData] = useState([]);
   const [teamData, setTeamData] = useState([]);
+  const [standingsData, setStandingsData] = useState([]);
   const [tabValue, setTabValue] = useState(0);
 
   useEffect(() => {
@@ -39,6 +41,17 @@ function App() {
     d3.csv(`${basePath}data/stats_${yearSuffix}.csv`)
       .then((data) => {
         setTeamData(data);
+      })
+      .catch((err) => console.error("Error loading or parsing CSV:", err));
+  }, [year]);
+
+  useEffect(() => {
+    const basePath = import.meta.env.BASE_URL;
+    const yearSuffix = year === 2024 ? "2024" : "2023";
+
+    d3.csv(`${basePath}data/standings_${yearSuffix}.csv`)
+      .then((data) => {
+        setStandingsData(data);
       })
       .catch((err) => console.error("Error loading or parsing CSV:", err));
   }, [year]);
@@ -73,12 +86,16 @@ function App() {
             onChange={handleTabChange}
             textColor="inherit"
             indicatorColor="secondary"
+            variant="scrollable"
+            scrollButtons="auto"
+            allowScrollButtonsMobile
             sx={{
               ".Mui-selected": {
                 outline: "none",
               },
             }}
           >
+            <Tab label="Standings" />
             <Tab label="Weekly Stat Leaders" />
             <Tab label="Team Stats" />
             <Tab label="Team Stat Trends" />
@@ -86,14 +103,25 @@ function App() {
         </Toolbar>
       </AppBar>
       <Box sx={{ backgroundColor: "white" }}>
-        <Typography color={"black"}>
-          *normal weeks are 7 days. week 1 is 10 days and week 15 (all star
-          break) is 14 days
-        </Typography>
+        {tabValue > 0 ? (
+          <Typography color={"black"}>
+            *normal weeks are 7 days. Week 1 is 10 days and week 15 (all star
+            break) is 14 days.
+          </Typography>
+        ) : (
+          <Typography color={"black"}>
+            *EXPECTED POINTS: Points are awarded weekly for each stat category
+            based on overall rankings. 1st place gets 14 points, decreasing to 1
+            point for last place (14-team league). For tiebreakers, the tied
+            teams get the average of the points for thier ranks. (e.g., 1st and
+            2nd get 13.5 each).
+          </Typography>
+        )}
       </Box>
-      {tabValue === 0 && <WeeklyStatLeaders data={weeklyData} year={year} />}
-      {tabValue === 1 && <TeamStats data={teamData} year={year} />}
-      {tabValue === 2 && <GraphStats data={teamData} year={year} />}
+      {tabValue === 0 && <Standings data={standingsData} />}
+      {tabValue === 1 && <WeeklyStatLeaders data={weeklyData} />}
+      {tabValue === 2 && <TeamStats data={teamData} />}
+      {tabValue === 3 && <GraphStats data={teamData} />}
     </Box>
   );
 }
