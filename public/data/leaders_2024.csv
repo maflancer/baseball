@@ -9,15 +9,15 @@ week,stat,teams,val
 1,IP,Mr. Castillo Girl,96.1
 1,K,Mr. Castillo Girl,101.0
 1,ERA,Arraez Con Pollo,1.96
-1,WHIP,"Shawty Got Lowe Lowe Lowe,Nate's Team",0.96
-1,SV,Shawty Got Lowe Lowe Lowe,11.0
+1,WHIP,"Shawty Got Soto,Nate's Team",0.96
+1,SV,Shawty Got Soto,11.0
 2,R,Hit The Kwannnnn,47.0
 2,HR,Hit The Kwannnnn,14.0
-2,RBI,Shawty Got Lowe Lowe Lowe,44.0
+2,RBI,Shawty Got Soto,44.0
 2,SB,Mr. Castillo Girl,11.0
 2,TB,Arraez Con Pollo,123.0
-2,AVG,Shawty Got Lowe Lowe Lowe,0.321
-2,OBP,Shawty Got Lowe Lowe Lowe,0.4
+2,AVG,Shawty Got Soto,0.321
+2,OBP,Shawty Got Soto,0.4
 2,IP,The Will Smith Slappers,79.0
 2,K,Mr. Castillo Girl,81.0
 2,ERA,Bookie Betts,2.56
@@ -33,18 +33,18 @@ week,stat,teams,val
 3,IP,The Will Smith Slappers,64.2
 3,K,Mr. Castillo Girl,72.0
 3,ERA,Jahn's EnDevers,1.43
-3,WHIP,Shawty Got Lowe Lowe Lowe,0.85
-3,SV,"Shawty Got Lowe Lowe Lowe,Bohms Away",10.0
+3,WHIP,Shawty Got Soto,0.85
+3,SV,"Shawty Got Soto,Bohms Away",10.0
 4,R,Bohms Away,47.0
 4,HR,The Will Smith Slappers,14.0
 4,RBI,Bohms Away,44.0
 4,SB,Pfaadt and JungOber,12.0
 4,TB,Bohms Away,135.0
 4,AVG,Bohms Away,0.323
-4,OBP,Shawty Got Lowe Lowe Lowe,0.393
+4,OBP,Shawty Got Soto,0.393
 4,IP,The Will Smith Slappers,75.1
 4,K,Pfaadt and JungOber,83.0
-4,ERA,Shawty Got Lowe Lowe Lowe,1.67
+4,ERA,Shawty Got Soto,1.67
 4,WHIP,This Means Schwar,0.87
 4,SV,Nate's Team,12.0
 5,R,Arraez Con Pollo,38.0
@@ -54,7 +54,7 @@ week,stat,teams,val
 5,TB,"Jahn's EnDevers,Hit The Kwannnnn",108.0
 5,AVG,Jahn's EnDevers,0.295
 5,OBP,Ohtani's Casino,0.381
-5,IP,Shawty Got Lowe Lowe Lowe,68.0
+5,IP,Shawty Got Soto,68.0
 5,K,Mr. Castillo Girl,75.0
 5,ERA,This Means Schwar,1.73
 5,WHIP,"Mr. Castillo Girl,This Means Schwar",0.9
@@ -64,18 +64,18 @@ week,stat,teams,val
 6,RBI,Ohtani's Casino,44.0
 6,SB,Ohtani's Casino,13.0
 6,TB,This Means Schwar,114.0
-6,AVG,Shawty Got Lowe Lowe Lowe,0.313
-6,OBP,Shawty Got Lowe Lowe Lowe,0.403
+6,AVG,Shawty Got Soto,0.313
+6,OBP,Shawty Got Soto,0.403
 6,IP,Mr. Castillo Girl,75.1
 6,K,David's Team,85.0
 6,ERA,The Will Smith Slappers,2.54
 6,WHIP,This Means Schwar,1.02
 6,SV,The Will Smith Slappers,8.0
 7,R,Arraez Con Pollo,40.0
-7,HR,Shawty Got Lowe Lowe Lowe,11.0
+7,HR,Shawty Got Soto,11.0
 7,RBI,Ohtani's Casino,34.0
 7,SB,Ohtani's Casino,14.0
-7,TB,"Shawty Got Lowe Lowe Lowe,Arraez Con Pollo",113.0
+7,TB,"Shawty Got Soto,Arraez Con Pollo",113.0
 7,AVG,Jahn's EnDevers,0.281
 7,OBP,The Will Smith Slappers,0.368
 7,IP,Jahn's EnDevers,78.0
@@ -83,3 +83,15 @@ week,stat,teams,val
 7,ERA,Gabe's Team,2.08
 7,WHIP,Ohtani's Casino,0.92
 7,SV,"Jahn's EnDevers,Nate's Team",6.0
+8,R,Pfaadt and JungOber,40.0
+8,HR,Pfaadt and JungOber,18.0
+8,RBI,Pfaadt and JungOber,39.0
+8,SB,The Will Smith Slappers,10.0
+8,TB,Pfaadt and JungOber,120.0
+8,AVG,Hit The Kwannnnn,0.288
+8,OBP,Hit The Kwannnnn,0.357
+8,IP,The Will Smith Slappers,87.0
+8,K,Nate's Team,85.0
+8,ERA,Gabe's Team,1.87
+8,WHIP,Gabe's Team,0.91
+8,SV,Bohms Away,10.0
