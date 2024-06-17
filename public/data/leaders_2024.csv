@@ -1,7 +1,7 @@
 week,stat,teams,val
 1,R,Since You've Been Kwan,64.0
 1,HR,Since You've Been Kwan,19.0
-1,RBI,Pfaadt and JungOber,63.0
+1,RBI,Seiya's Sauna,63.0
 1,SB,Arraez Con Pollo,13.0
 1,TB,Since You've Been Kwan,183.0
 1,AVG,"Since You've Been Kwan,The Will Smith Slappers",0.276
@@ -21,7 +21,7 @@ week,stat,teams,val
 2,IP,The Will Smith Slappers,79.0
 2,K,Mr. Castillo Girl,81.0
 2,ERA,Bookie Betts,2.56
-2,WHIP,Pfaadt and JungOber,1.03
+2,WHIP,Seiya's Sauna,1.03
 2,SV,Mr. Castillo Girl,6.0
 3,R,Gabe's Team,42.0
 3,HR,Bohms Away,14.0
@@ -38,12 +38,12 @@ week,stat,teams,val
 4,R,Bohms Away,47.0
 4,HR,The Will Smith Slappers,14.0
 4,RBI,Bohms Away,44.0
-4,SB,Pfaadt and JungOber,12.0
+4,SB,Seiya's Sauna,12.0
 4,TB,Bohms Away,135.0
 4,AVG,Bohms Away,0.323
 4,OBP,Shawty Got Soto,0.393
 4,IP,The Will Smith Slappers,75.1
-4,K,Pfaadt and JungOber,83.0
+4,K,Seiya's Sauna,83.0
 4,ERA,Shawty Got Soto,1.67
 4,WHIP,This Means Schwar,0.87
 4,SV,Nate's Team,12.0
@@ -83,11 +83,11 @@ week,stat,teams,val
 7,ERA,Gabe's Team,2.08
 7,WHIP,Ohtani's Casino,0.92
 7,SV,"Jahn's EnDevers,Nate's Team",6.0
-8,R,Pfaadt and JungOber,40.0
-8,HR,Pfaadt and JungOber,18.0
-8,RBI,Pfaadt and JungOber,39.0
+8,R,Seiya's Sauna,40.0
+8,HR,Seiya's Sauna,18.0
+8,RBI,Seiya's Sauna,39.0
 8,SB,The Will Smith Slappers,10.0
-8,TB,Pfaadt and JungOber,120.0
+8,TB,Seiya's Sauna,120.0
 8,AVG,Since You've Been Kwan,0.288
 8,OBP,Since You've Been Kwan,0.357
 8,IP,The Will Smith Slappers,87.0
@@ -105,7 +105,7 @@ week,stat,teams,val
 9,IP,Shawty Got Soto,76.1
 9,K,Mr. Castillo Girl,79.0
 9,ERA,Nate's Team,2.72
-9,WHIP,Pfaadt and JungOber,0.96
+9,WHIP,Seiya's Sauna,0.96
 9,SV,The Will Smith Slappers,11.0
 10,R,Since You've Been Kwan,40.0
 10,HR,Nate's Team,13.0
@@ -115,7 +115,19 @@ week,stat,teams,val
 10,AVG,The Will Smith Slappers,0.301
 10,OBP,Nate's Team,0.397
 10,IP,The Will Smith Slappers,77.1
-10,K,Pfaadt and JungOber,80.0
+10,K,Seiya's Sauna,80.0
 10,ERA,Jahn's EnDevers,2.19
 10,WHIP,Jahn's EnDevers,0.85
 10,SV,"Bohms Away,Arraez Con Pollo",6.0
+11,R,Gabe's Team,41.0
+11,HR,"Gabe's Team,This Means Schwar",13.0
+11,RBI,Gabe's Team,45.0
+11,SB,Shawty Got Soto,11.0
+11,TB,Gabe's Team,125.0
+11,AVG,Nate's Team,0.296
+11,OBP,Gabe's Team,0.366
+11,IP,Gabe's Team,83.2
+11,K,The Will Smith Slappers,67.0
+11,ERA,Bohms Away,2.48
+11,WHIP,David's Team,0.99
+11,SV,Bohms Away,12.0
