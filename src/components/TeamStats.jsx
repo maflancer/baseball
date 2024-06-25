@@ -1,6 +1,6 @@
 import CustomTable from "./CustomTable";
 
-function TeamStats({ data }) {
+function TeamStats({ data, tabValue }) {
   const columnOrder = [
     "week",
     "team_name",
@@ -18,13 +18,8 @@ function TeamStats({ data }) {
     "SV",
   ];
 
-  const filters = {
-    week: "",
-    team_name: "",
-  };
-
   return (
-    <CustomTable data={data} filters={filters} columnOrder={columnOrder} />
+    <CustomTable data={data} tabValue={tabValue} columnOrder={columnOrder} />
   );
 }
 

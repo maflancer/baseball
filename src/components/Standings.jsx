@@ -1,6 +1,6 @@
 import CustomTable from "./CustomTable";
 
-function Standings({ data }) {
+function Standings({ data, tabValue }) {
   const columnOrder = [
     "team_name",
     "rank",
@@ -13,10 +13,8 @@ function Standings({ data }) {
     "games_back",
   ];
 
-  const filters = {};
-
   return (
-    <CustomTable data={data} filters={filters} columnOrder={columnOrder} />
+    <CustomTable data={data} tabValue={tabValue} columnOrder={columnOrder} />
   );
 }
 

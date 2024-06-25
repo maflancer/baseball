@@ -1,15 +1,10 @@
 import CustomTable from "./CustomTable";
 
-function WeeklyStatLeaders({ data }) {
+function WeeklyStatLeaders({ data, tabValue }) {
   const columnOrder = ["week", "teams", "val", "stat"];
 
-  const filters = {
-    week: "",
-    stat: "",
-  };
-
   return (
-    <CustomTable data={data} filters={filters} columnOrder={columnOrder} />
+    <CustomTable data={data} tabValue={tabValue} columnOrder={columnOrder} />
   );
 }
 

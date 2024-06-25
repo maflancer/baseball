@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { setYear } from "./redux/yearSlice";
+import { setTab } from "./redux/tabSlice";
 import "./App.css";
 import * as d3 from "d3";
 import {
@@ -17,11 +20,12 @@ import GraphStats from "./components/GraphStats";
 import Standings from "./components/Standings";
 
 function App() {
-  const [year, setYear] = useState(2024);
+  const dispatch = useDispatch();
+  const year = useSelector((state) => state.year);
+  const tabValue = useSelector((state) => state.tab);
   const [weeklyData, setWeeklyData] = useState([]);
   const [teamData, setTeamData] = useState([]);
   const [standingsData, setStandingsData] = useState([]);
-  const [tabValue, setTabValue] = useState(0);
 
   useEffect(() => {
     const basePath = import.meta.env.BASE_URL;
@@ -57,11 +61,11 @@ function App() {
   }, [year]);
 
   const handleTabChange = (event, newValue) => {
-    setTabValue(newValue);
+    dispatch(setTab(newValue));
   };
 
   const handleYearChange = (event) => {
-    setYear(event.target.value);
+    dispatch(setYear(event.target.value));
   };
 
   return (
@@ -78,7 +82,7 @@ function App() {
               sx={{ color: "white", borderBottom: "none" }}
             >
               <MenuItem value={2024}>Errors of Ersen (2024)</MenuItem>
-              <MenuItem value={2023}>Womanfred's World (2023)</MenuItem>
+              <MenuItem value={2023}>Womanfred&apos;s World (2023)</MenuItem>
             </Select>
           </Typography>
           <Tabs
@@ -118,9 +122,11 @@ function App() {
           </Typography>
         )}
       </Box>
-      {tabValue === 0 && <Standings data={standingsData} />}
-      {tabValue === 1 && <WeeklyStatLeaders data={weeklyData} />}
-      {tabValue === 2 && <TeamStats data={teamData} />}
+      {tabValue === 0 && <Standings data={standingsData} tabValue={tabValue} />}
+      {tabValue === 1 && (
+        <WeeklyStatLeaders data={weeklyData} tabValue={tabValue} />
+      )}
+      {tabValue === 2 && <TeamStats data={teamData} tabValue={tabValue} />}
       {tabValue === 3 && <GraphStats data={teamData} />}
     </Box>
   );

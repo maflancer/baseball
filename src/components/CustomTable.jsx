@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import {
   Paper,
   Grid,
@@ -16,39 +17,33 @@ import {
   TableSortLabel,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
+import { setFilter, clearFilter } from "../redux/filterSlice";
 
-function CustomTable({ data, filters, columnOrder }) {
+function CustomTable({ data, columnOrder, tabValue }) {
+  const dispatch = useDispatch();
   const [filteredData, setFilteredData] = useState([]);
   const [orderDirection, setOrderDirection] = useState("asc");
   const [valueToOrderBy, setValueToOrderBy] = useState("");
-  const [filter, setFilter] = useState(filters);
+  const filters = useSelector((state) => state.filters[tabValue]) || {};
 
   useEffect(() => {
-    filterData(filter);
-  }, [data]);
+    filterData(filters);
+  }, [data, filters]);
 
   const handleRequestSort = (property) => {
     const isAsc = valueToOrderBy === property && orderDirection === "asc";
     setValueToOrderBy(property);
     setOrderDirection(isAsc ? "desc" : "asc");
-    filterData(filter);
+    filterData(filters);
   };
 
   const handleFilterChange = (event) => {
     const { name, value } = event.target;
-    setFilter((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-    filterData({ ...filter, [name]: value });
+    dispatch(setFilter({ tab: tabValue, name, value }));
   };
 
-  const clearFilter = (name) => {
-    setFilter((prev) => ({
-      ...prev,
-      [name]: "",
-    }));
-    filterData({ ...filter, [name]: "" });
+  const clearFilterValue = (name) => {
+    dispatch(clearFilter({ tab: tabValue, name }));
   };
 
   const filterData = (filters) => {
@@ -82,20 +77,20 @@ function CustomTable({ data, filters, columnOrder }) {
   return (
     <Paper className="fullScreenPaper">
       <Grid sx={{ mt: 1 }} container spacing={2} justifyContent="center">
-        {Object.keys(filter).map((filterName) => (
+        {Object.keys(filters).map((filterName) => (
           <Grid item key={filterName} xs={6} sm={3}>
             <FormControl fullWidth>
               <InputLabel>
                 {filterName.charAt(0).toUpperCase() + filterName.slice(1)}
               </InputLabel>
               <Select
-                value={filter[filterName]}
+                value={filters[filterName]}
                 label={filterName.charAt(0).toUpperCase() + filterName.slice(1)}
                 name={filterName}
                 onChange={handleFilterChange}
                 endAdornment={
-                  filter[filterName] && (
-                    <IconButton onClick={() => clearFilter(filterName)}>
+                  filters[filterName] && (
+                    <IconButton onClick={() => clearFilterValue(filterName)}>
                       <CloseIcon />
                     </IconButton>
                   )
