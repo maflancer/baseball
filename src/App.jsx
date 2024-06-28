@@ -18,6 +18,7 @@ import WeeklyStatLeaders from "./components/WeeklyStatLeaders";
 import TeamStats from "./components/TeamStats";
 import GraphStats from "./components/GraphStats";
 import Standings from "./components/Standings";
+import TeamPerformance from "./components/TeamPerformance";
 
 function App() {
   const dispatch = useDispatch();
@@ -103,24 +104,25 @@ function App() {
             <Tab label="Weekly Stat Leaders" />
             <Tab label="Team Stats" />
             <Tab label="Team Stat Trends" />
+            <Tab label="Team Performance" />
           </Tabs>
         </Toolbar>
       </AppBar>
       <Box sx={{ backgroundColor: "white" }}>
-        {tabValue > 0 ? (
-          <Typography color={"black"}>
-            *normal weeks are 7 days. Week 1 is 10 days and week 15 (all star
-            break) is 14 days.
-          </Typography>
-        ) : (
+        {tabValue === 0 || tabValue === 4 ? (
           <Typography color={"black"}>
             *EXPECTED POINTS: Points are awarded weekly for each stat category
             based on overall rankings. 1st place gets 14 points, decreasing to 1
             point for last place (14-team league). For tiebreakers, the tied
-            teams get the average of the points for thier ranks. (e.g., 1st and
+            teams get the average of the points for their ranks. (e.g., 1st and
             2nd get 13.5 each).
           </Typography>
-        )}
+        ) : tabValue === 1 || tabValue === 2 || tabValue === 3 ? (
+          <Typography color={"black"}>
+            *normal weeks are 7 days. Week 1 is 10 days and week 15 (all star
+            break) is 14 days.
+          </Typography>
+        ) : null}
       </Box>
       {tabValue === 0 && <Standings data={standingsData} tabValue={tabValue} />}
       {tabValue === 1 && (
@@ -128,6 +130,7 @@ function App() {
       )}
       {tabValue === 2 && <TeamStats data={teamData} tabValue={tabValue} />}
       {tabValue === 3 && <GraphStats data={teamData} />}
+      {tabValue === 4 && <TeamPerformance data={standingsData} />}
     </Box>
   );
 }
