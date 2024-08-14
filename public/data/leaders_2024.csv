@@ -1,10 +1,10 @@
 week,stat,teams,val
 1,R,Since You've Been Kwan,64.0
 1,HR,Since You've Been Kwan,19.0
-1,RBI,Seiya's Sauna,63.0
+1,RBI,Burger Witt Frys,63.0
 1,SB,Arraez Con Pollo,13.0
 1,TB,Since You've Been Kwan,183.0
-1,AVG,"Since You've Been Kwan,The Will Smith Slappers",0.276
+1,AVG,"Since You've Been Kwan,Matt's Team",0.276
 1,OBP,Nate's Team,0.362
 1,IP,Mr. Castillo Girl,96.1
 1,K,Mr. Castillo Girl,101.0
@@ -18,10 +18,10 @@ week,stat,teams,val
 2,TB,Arraez Con Pollo,123.0
 2,AVG,Shawty Got Soto,0.321
 2,OBP,Shawty Got Soto,0.4
-2,IP,The Will Smith Slappers,79.0
+2,IP,Matt's Team,79.0
 2,K,Mr. Castillo Girl,81.0
 2,ERA,Dookie Betts,2.56
-2,WHIP,Seiya's Sauna,1.03
+2,WHIP,Burger Witt Frys,1.03
 2,SV,Mr. Castillo Girl,6.0
 3,R,Gabe's Team,42.0
 3,HR,Bohms Away,14.0
@@ -30,20 +30,20 @@ week,stat,teams,val
 3,TB,Bohms Away,116.0
 3,AVG,David's Team,0.307
 3,OBP,Ohtani's Casino,0.39
-3,IP,The Will Smith Slappers,64.2
+3,IP,Matt's Team,64.2
 3,K,Mr. Castillo Girl,72.0
 3,ERA,Jahn's EnDevers,1.43
 3,WHIP,Shawty Got Soto,0.85
 3,SV,"Shawty Got Soto,Bohms Away",10.0
 4,R,Bohms Away,47.0
-4,HR,The Will Smith Slappers,14.0
+4,HR,Matt's Team,14.0
 4,RBI,Bohms Away,44.0
-4,SB,Seiya's Sauna,12.0
+4,SB,Burger Witt Frys,12.0
 4,TB,Bohms Away,135.0
 4,AVG,Bohms Away,0.323
 4,OBP,Shawty Got Soto,0.393
-4,IP,The Will Smith Slappers,75.1
-4,K,Seiya's Sauna,83.0
+4,IP,Matt's Team,75.1
+4,K,Burger Witt Frys,83.0
 4,ERA,Shawty Got Soto,1.67
 4,WHIP,This Means Schwar,0.87
 4,SV,Nate's Team,12.0
@@ -58,7 +58,7 @@ week,stat,teams,val
 5,K,Mr. Castillo Girl,75.0
 5,ERA,This Means Schwar,1.73
 5,WHIP,"Mr. Castillo Girl,This Means Schwar",0.9
-5,SV,The Will Smith Slappers,8.0
+5,SV,Matt's Team,8.0
 6,R,Ohtani's Casino,36.0
 6,HR,"Since You've Been Kwan,This Means Schwar",12.0
 6,RBI,Ohtani's Casino,44.0
@@ -68,35 +68,35 @@ week,stat,teams,val
 6,OBP,Shawty Got Soto,0.403
 6,IP,Mr. Castillo Girl,75.1
 6,K,David's Team,85.0
-6,ERA,The Will Smith Slappers,2.54
+6,ERA,Matt's Team,2.54
 6,WHIP,This Means Schwar,1.02
-6,SV,The Will Smith Slappers,8.0
+6,SV,Matt's Team,8.0
 7,R,Arraez Con Pollo,40.0
 7,HR,Shawty Got Soto,11.0
 7,RBI,Ohtani's Casino,34.0
 7,SB,Ohtani's Casino,14.0
 7,TB,"Shawty Got Soto,Arraez Con Pollo",113.0
 7,AVG,Jahn's EnDevers,0.281
-7,OBP,The Will Smith Slappers,0.368
+7,OBP,Matt's Team,0.368
 7,IP,Jahn's EnDevers,78.0
 7,K,Jahn's EnDevers,69.0
 7,ERA,Gabe's Team,2.08
 7,WHIP,Ohtani's Casino,0.92
 7,SV,"Jahn's EnDevers,Nate's Team",6.0
-8,R,Seiya's Sauna,40.0
-8,HR,Seiya's Sauna,18.0
-8,RBI,Seiya's Sauna,39.0
-8,SB,The Will Smith Slappers,10.0
-8,TB,Seiya's Sauna,120.0
+8,R,Burger Witt Frys,40.0
+8,HR,Burger Witt Frys,18.0
+8,RBI,Burger Witt Frys,39.0
+8,SB,Matt's Team,10.0
+8,TB,Burger Witt Frys,120.0
 8,AVG,Since You've Been Kwan,0.288
 8,OBP,Since You've Been Kwan,0.357
-8,IP,The Will Smith Slappers,87.0
+8,IP,Matt's Team,87.0
 8,K,Nate's Team,85.0
 8,ERA,Gabe's Team,1.87
 8,WHIP,Gabe's Team,0.91
 8,SV,Bohms Away,10.0
 9,R,Shawty Got Soto,42.0
-9,HR,"Shawty Got Soto,The Will Smith Slappers,This Means Schwar",11.0
+9,HR,"Shawty Got Soto,Matt's Team,This Means Schwar",11.0
 9,RBI,Shawty Got Soto,39.0
 9,SB,Mr. Castillo Girl,8.0
 9,TB,Shawty Got Soto,113.0
@@ -105,17 +105,17 @@ week,stat,teams,val
 9,IP,Shawty Got Soto,76.1
 9,K,Mr. Castillo Girl,79.0
 9,ERA,Nate's Team,2.72
-9,WHIP,Seiya's Sauna,0.96
-9,SV,The Will Smith Slappers,11.0
+9,WHIP,Burger Witt Frys,0.96
+9,SV,Matt's Team,11.0
 10,R,Since You've Been Kwan,40.0
 10,HR,Nate's Team,13.0
-10,RBI,The Will Smith Slappers,38.0
+10,RBI,Matt's Team,38.0
 10,SB,Shawty Got Soto,14.0
-10,TB,The Will Smith Slappers,119.0
-10,AVG,The Will Smith Slappers,0.301
+10,TB,Matt's Team,119.0
+10,AVG,Matt's Team,0.301
 10,OBP,Nate's Team,0.397
-10,IP,The Will Smith Slappers,77.1
-10,K,Seiya's Sauna,80.0
+10,IP,Matt's Team,77.1
+10,K,Burger Witt Frys,80.0
 10,ERA,Jahn's EnDevers,2.19
 10,WHIP,Jahn's EnDevers,0.85
 10,SV,"Bohms Away,Arraez Con Pollo",6.0
@@ -127,13 +127,13 @@ week,stat,teams,val
 11,AVG,Nate's Team,0.296
 11,OBP,Gabe's Team,0.366
 11,IP,Gabe's Team,83.2
-11,K,The Will Smith Slappers,67.0
+11,K,Matt's Team,67.0
 11,ERA,Bohms Away,2.48
 11,WHIP,David's Team,0.99
 11,SV,Bohms Away,12.0
 12,R,Gabe's Team,43.0
 12,HR,Bohms Away,15.0
-12,RBI,The Will Smith Slappers,48.0
+12,RBI,Matt's Team,48.0
 12,SB,"Shawty Got Soto,Mr. Castillo Girl",9.0
 12,TB,Bohms Away,130.0
 12,AVG,"Shawty Got Soto,Gabe's Team",0.306
@@ -155,17 +155,17 @@ week,stat,teams,val
 13,ERA,Jahn's EnDevers,0.86
 13,WHIP,Jahn's EnDevers,0.8
 13,SV,"This Means Schwar,Arraez Con Pollo",6.0
-14,R,The Will Smith Slappers,42.0
-14,HR,"Seiya's Sauna,Mr. Castillo Girl",15.0
-14,RBI,Seiya's Sauna,45.0
+14,R,Matt's Team,42.0
+14,HR,"Burger Witt Frys,Mr. Castillo Girl",15.0
+14,RBI,Burger Witt Frys,45.0
 14,SB,Ohtani's Casino,10.0
-14,TB,Seiya's Sauna,125.0
-14,AVG,Seiya's Sauna,0.306
+14,TB,Burger Witt Frys,125.0
+14,AVG,Burger Witt Frys,0.306
 14,OBP,Nate's Team,0.373
-14,IP,The Will Smith Slappers,76.0
+14,IP,Matt's Team,76.0
 14,K,Nate's Team,84.0
 14,ERA,Ohtani's Casino,2.06
-14,WHIP,"Seiya's Sauna,Ohtani's Casino",0.9
+14,WHIP,"Burger Witt Frys,Ohtani's Casino",0.9
 14,SV,"Since You've Been Kwan,Jahn's EnDevers,Gabe's Team,This Means Schwar",7.0
 15,R,David's Team,54.0
 15,HR,"Gabe's Team,Bohms Away,David's Team,This Means Schwar",18.0
@@ -174,10 +174,10 @@ week,stat,teams,val
 15,TB,David's Team,181.0
 15,AVG,David's Team,0.306
 15,OBP,David's Team,0.37
-15,IP,The Will Smith Slappers,105.2
-15,K,The Will Smith Slappers,96.0
+15,IP,Matt's Team,105.2
+15,K,Matt's Team,96.0
 15,ERA,This Means Schwar,1.91
-15,WHIP,Seiya's Sauna,0.96
+15,WHIP,Burger Witt Frys,0.96
 15,SV,Jahn's EnDevers,18.0
 16,R,David's Team,43.0
 16,HR,David's Team,14.0
@@ -186,9 +186,9 @@ week,stat,teams,val
 16,TB,David's Team,119.0
 16,AVG,David's Team,0.297
 16,OBP,David's Team,0.391
-16,IP,The Will Smith Slappers,72.1
+16,IP,Matt's Team,72.1
 16,K,Shawty Got Soto,67.0
-16,ERA,Seiya's Sauna,2.08
+16,ERA,Burger Witt Frys,2.08
 16,WHIP,Bohms Away,0.92
 16,SV,Bohms Away,7.0
 17,R,Shawty Got Soto,51.0
@@ -203,3 +203,15 @@ week,stat,teams,val
 17,ERA,Ohtani's Casino,3.26
 17,WHIP,Dookie Betts,1.07
 17,SV,"Nate's Team,This Means Schwar",6.0
+18,R,Burger Witt Frys,43.0
+18,HR,"Shawty Got Soto,Gabe's Team,Nate's Team",15.0
+18,RBI,Burger Witt Frys,45.0
+18,SB,"Jahn's EnDevers,This Means Schwar",10.0
+18,TB,Burger Witt Frys,128.0
+18,AVG,David's Team,0.319
+18,OBP,Matt's Team,0.387
+18,IP,Burger Witt Frys,66.1
+18,K,Mr. Castillo Girl,86.0
+18,ERA,Bohms Away,2.23
+18,WHIP,Bohms Away,0.89
+18,SV,Nate's Team,8.0
