@@ -20,7 +20,7 @@ week,stat,teams,val
 2,OBP,Shawty Got Soto,0.4
 2,IP,Matt's Team,79.0
 2,K,Mr. Castillo Girl,81.0
-2,ERA,Dookie Betts,2.56
+2,ERA,Jose Ferrer (Bud Black),2.56
 2,WHIP,Burger Witt Frys,1.03
 2,SV,Mr. Castillo Girl,6.0
 3,R,Gabe's Team,42.0
@@ -201,7 +201,7 @@ week,stat,teams,val
 17,IP,Nate's Team,74.1
 17,K,Since You've Been Kwan,71.0
 17,ERA,Ohtani's Casino,3.26
-17,WHIP,Dookie Betts,1.07
+17,WHIP,Jose Ferrer (Bud Black),1.07
 17,SV,"Nate's Team,This Means Schwar",6.0
 18,R,Burger Witt Frys,43.0
 18,HR,"Shawty Got Soto,Gabe's Team,Nate's Team",15.0
@@ -234,8 +234,20 @@ week,stat,teams,val
 20,TB,Arraez Con Pollo,114.0
 20,AVG,Ohtani's Casino,0.283
 20,OBP,Arraez Con Pollo,0.358
-20,IP,Dookie Betts,75.2
-20,K,Dookie Betts,87.0
+20,IP,Jose Ferrer (Bud Black),75.2
+20,K,Jose Ferrer (Bud Black),87.0
 20,ERA,This Means Schwar,1.94
 20,WHIP,Bohms Away,0.81
 20,SV,Nate's Team,10.0
+21,R,Arraez Con Pollo,50.0
+21,HR,Arraez Con Pollo,16.0
+21,RBI,Burger Witt Frys,46.0
+21,SB,Bohms Away,12.0
+21,TB,Arraez Con Pollo,141.0
+21,AVG,Arraez Con Pollo,0.33
+21,OBP,Arraez Con Pollo,0.395
+21,IP,Gabe's Team,76.0
+21,K,David's Team,76.0
+21,ERA,Shawty Got Soto,2.04
+21,WHIP,Shawty Got Soto,0.98
+21,SV,Nate's Team,8.0
