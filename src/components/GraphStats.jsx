@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Plot from "react-plotly.js";
 import {
   FormControl,
-  InputLabel,
   Select,
   MenuItem,
   Box,
@@ -10,46 +9,54 @@ import {
   Grid,
   OutlinedInput,
   Checkbox,
+  Paper,
+  Chip,
+  useMediaQuery,
+  useTheme,
 } from "@mui/material";
 
 function GraphStats({ data }) {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const [selectedStat, setSelectedStat] = useState("R");
   const [selectedTeams, setSelectedTeams] = useState(["ALL"]);
   const [plotData, setPlotData] = useState([]);
 
+  // Available statistics to graph
   const stats = [
-    "R",
-    "HR",
-    "RBI",
-    "SB",
-    "TB",
-    "AVG",
-    "OBP",
-    "IP",
-    "K",
-    "ERA",
-    "WHIP",
-    "SV",
+    "R", "HR", "RBI", "SB", "TB", "AVG", "OBP", "IP", "K", "ERA", "WHIP", "SV",
   ];
+  
+  // Extract unique team names from data
   const teamNames = [...new Set(data.map((item) => item.team_name))];
 
+  // Update plot data when selections change
   useEffect(() => {
     if (data.length > 0) {
       const filteredTeams = selectedTeams.includes("ALL")
         ? teamNames
         : selectedTeams;
-      const traceData = filteredTeams.map((team) => ({
-        type: "scatter",
-        mode: "lines+markers",
-        name: team,
-        x: data
-          .filter((item) => item.team_name === team)
-          .map((item) => item.week),
-        y: data
-          .filter((item) => item.team_name === team)
-          .map((item) => item[selectedStat]),
-        line: { shape: "linear" },
-      }));
+      
+      // Create a trace for each selected team
+      const traceData = filteredTeams.map((team) => {
+        // Filter data for this team
+        const teamData = data.filter((item) => item.team_name === team);
+        
+        // Sort by week to ensure proper line drawing
+        teamData.sort((a, b) => parseInt(a.week) - parseInt(b.week));
+        
+        // Create trace
+        return {
+          type: "scatter",
+          mode: "lines+markers",
+          name: team,
+          x: teamData.map((item) => item.week),
+          y: teamData.map((item) => item[selectedStat]),
+          line: { shape: "linear", width: 2 },
+          marker: { size: 8 }
+        };
+      });
+      
       setPlotData(traceData);
     }
   }, [data, selectedStat, selectedTeams]);
@@ -62,6 +69,8 @@ function GraphStats({ data }) {
     const {
       target: { value },
     } = event;
+    
+    // Handle "ALL" selection logic
     if (value[value.length - 1] === "ALL" || value.length === 0) {
       setSelectedTeams(["ALL"]);
     } else if (value.includes("ALL")) {
@@ -71,84 +80,152 @@ function GraphStats({ data }) {
     }
   };
 
+  // Get formatted title for the current stat
+  const getStatTitle = (stat) => {
+    const statTitles = {
+      "R": "Runs",
+      "HR": "Home Runs",
+      "RBI": "Runs Batted In",
+      "SB": "Stolen Bases",
+      "TB": "Total Bases",
+      "AVG": "Batting Average",
+      "OBP": "On-Base Percentage",
+      "IP": "Innings Pitched",
+      "K": "Strikeouts",
+      "ERA": "Earned Run Average",
+      "WHIP": "Walks + Hits per Inning Pitched",
+      "SV": "Saves"
+    };
+    return statTitles[stat] || stat;
+  };
+
   return (
-    <div style={{ backgroundColor: "white", padding: "20px" }}>
-      <Grid container alignItems="center" spacing={2}>
-        <Grid item>
-          <Typography variant="h6" color={"black"}>
-            Please select a stat to graph:
-          </Typography>
-        </Grid>
-        <Grid item>
-          <Box width={200}>
-            <FormControl fullWidth>
-              <InputLabel id="stat-select-label">Select Stat</InputLabel>
+    <Box sx={{ width: '100%' }}>
+      <Paper elevation={1} sx={{ p: 2, mb: 3, backgroundColor: '#f8f9fa' }}>
+        <Grid container spacing={isMobile ? 2 : 4} alignItems="center" flexWrap="wrap">
+          {/* Stat selector */}
+          <Grid item xs={12} sm={6} md={4} lg={3}>
+            <Typography variant="subtitle2" gutterBottom>
+              Statistic to Graph:
+            </Typography>
+            <FormControl fullWidth size="small">
               <Select
-                size="small"
-                labelId="stat-select-label"
-                id="stat-select"
                 value={selectedStat}
-                label="Select Stat"
                 onChange={handleStatChange}
+                displayEmpty
+                sx={{ 
+                  backgroundColor: 'white',
+                  '& .MuiOutlinedInput-notchedOutline': {
+                    borderColor: 'rgba(0, 0, 0, 0.23)'
+                  }
+                }}
               >
-                {stats.map((stat, index) => (
-                  <MenuItem key={index} value={stat}>
-                    {stat}
+                {stats.map((stat) => (
+                  <MenuItem key={stat} value={stat}>
+                    <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                      <Typography variant="body2" fontWeight={500}>{stat}</Typography>
+                      <Typography variant="body2" sx={{ ml: 1, color: 'text.secondary' }}>
+                        - {getStatTitle(stat)}
+                      </Typography>
+                    </Box>
                   </MenuItem>
                 ))}
               </Select>
             </FormControl>
-          </Box>
-        </Grid>
-      </Grid>
-      <Grid container alignItems="center" spacing={2} sx={{ mt: 2, mb: 2 }}>
-        <Grid item>
-          <Typography variant="h6" color={"black"}>
-            Please select teams to compare:
-          </Typography>
-        </Grid>
-        <Grid item xs>
-          <Box width={200}>
-            <FormControl fullWidth>
-              <InputLabel id="team-select-label">Select Teams</InputLabel>
+          </Grid>
+          
+          {/* Team selector */}
+          <Grid item xs={12} sm={6} md={8} lg={9}>
+            <Typography variant="subtitle2" gutterBottom>
+              Teams to Compare:
+            </Typography>
+            <FormControl fullWidth size="small">
               <Select
-                size="small"
-                labelId="team-select-label"
-                id="team-select"
                 multiple
                 value={selectedTeams}
                 onChange={handleTeamChange}
-                input={<OutlinedInput label="Select Teams" />}
-                renderValue={(selected) => selected.join(", ")}
+                input={<OutlinedInput />}
+                renderValue={(selected) => (
+                  <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
+                    {selected.includes("ALL") ? (
+                      <Chip size="small" label="All Teams" sx={{ backgroundColor: '#e3f2fd' }} />
+                    ) : (
+                      selected.map((value) => (
+                        <Chip key={value} size="small" label={value} sx={{ backgroundColor: '#e3f2fd' }} />
+                      ))
+                    )}
+                  </Box>
+                )}
+                sx={{ 
+                  backgroundColor: 'white',
+                  '& .MuiOutlinedInput-notchedOutline': {
+                    borderColor: 'rgba(0, 0, 0, 0.23)'
+                  }
+                }}
               >
                 <MenuItem value="ALL">
                   <Checkbox checked={selectedTeams.includes("ALL")} />
-                  All Teams
+                  <Typography variant="body2" fontWeight={500}>All Teams</Typography>
                 </MenuItem>
                 {teamNames.map((name) => (
                   <MenuItem key={name} value={name}>
                     <Checkbox checked={selectedTeams.includes(name)} />
-                    {name}
+                    <Typography variant="body2">{name}</Typography>
                   </MenuItem>
                 ))}
               </Select>
             </FormControl>
-          </Box>
+          </Grid>
         </Grid>
-      </Grid>
-      <Plot
-        data={plotData}
-        layout={{
-          title: `Weekly Trends for ${selectedStat} Across Teams`,
-          xaxis: { title: "Week", tickmode: "linear", tick0: 1, dtick: 1 },
-          yaxis: { title: selectedStat },
-          margin: { t: 60 },
-          autosize: true,
-        }}
-        useResizeHandler={true}
-        style={{ width: "100%", height: "100%" }}
-      />
-    </div>
+      </Paper>
+      
+      {/* Plot container */}
+      <Paper elevation={2} sx={{ p: 0, overflow: 'hidden' }}>
+        <Plot
+          data={plotData}
+          layout={{
+            title: `Weekly ${getStatTitle(selectedStat)} Trends`,
+            xaxis: { 
+              title: "Week", 
+              tickmode: "linear", 
+              tick0: 1, 
+              dtick: 1,
+              gridcolor: 'rgba(0,0,0,0.1)'
+            },
+            yaxis: { 
+              title: getStatTitle(selectedStat),
+              gridcolor: 'rgba(0,0,0,0.1)'
+            },
+            margin: { t: 60, r: 30, l: 60, b: 50 },
+            autosize: true,
+            hovermode: 'closest',
+            paper_bgcolor: 'white',
+            plot_bgcolor: 'white',
+            font: {
+              family: '"Roboto", "Helvetica", "Arial", sans-serif'
+            }
+          }}
+          useResizeHandler={true}
+          style={{ 
+            width: "100%", 
+            height: isMobile ? "350px" : "500px" 
+          }}
+          config={{
+            responsive: true,
+            displayModeBar: true,
+            displaylogo: false,
+            modeBarButtonsToRemove: ['lasso2d', 'select2d']
+          }}
+        />
+      </Paper>
+      
+      {/* Mobile help text */}
+      {isMobile && (
+        <Typography variant="caption" sx={{ display: 'block', mt: 1, textAlign: 'center', color: 'text.secondary' }}>
+          Tip: Turn your device to landscape for a better view of the graph.
+        </Typography>
+      )}
+    </Box>
   );
 }
 
