@@ -15,22 +15,17 @@ import {
   MenuItem,
   Container,
   Paper,
-  Tooltip,
   IconButton,
   useTheme,
   useMediaQuery,
   Divider,
-  Alert,
-  Drawer,
   List,
   ListItem,
   ListItemIcon,
   ListItemText,
   ListItemButton,
-  Button,
   Skeleton,
   SwipeableDrawer,
-  Fab
 } from "@mui/material";
 import InfoIcon from "@mui/icons-material/Info";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -55,11 +50,9 @@ function App() {
   const [standingsData, setStandingsData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [showInfoBanner, setShowInfoBanner] = useState(true);
   
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
-  const isTablet = useMediaQuery(theme.breakpoints.down("md"));
 
   useEffect(() => {
     const loadData = async () => {
@@ -87,6 +80,11 @@ function App() {
 
     loadData();
   }, [year]);
+  
+  // Reset banner visibility when tab changes
+  useEffect(() => {
+    setShowInfoBanner(true);
+  }, [tabValue]);
 
   const handleTabChange = (event, newValue) => {
     dispatch(setTab(newValue));
@@ -143,8 +141,13 @@ function App() {
     "Performance"
   ];
 
+  // State to track banner visibility
+  const [showInfoBanner, setShowInfoBanner] = useState(true);
+  
   // Get info text based on active tab
   const getInfoText = () => {
+    if (!showInfoBanner) return null;
+    
     if (tabValue === 0 || tabValue === 4) {
       return "*EXPECTED POINTS: Weekly stat rankings award points: 14 for 1st place down to 1 for 14th (14-team league). Tied teams receive the average of their positions (e.g., teams tied for 1st-2nd each get 13.5 points)";
     } else if (tabValue === 1 || tabValue === 2 || tabValue === 3) {
@@ -263,52 +266,22 @@ function App() {
             </IconButton>
           )}
 
-          {/* League year selector */}
-          <Box sx={{ 
-            display: 'flex', 
-            alignItems: 'center', 
-            mr: 2,
-            flexGrow: isMobile ? 1 : 0
-          }}>
-            {!isMobile && (
-              <Select
-                value={year}
-                onChange={handleYearChange}
-                size="small"
-                sx={{ 
-                  color: 'white', 
-                  '.MuiOutlinedInput-notchedOutline': { 
-                    borderColor: 'rgba(255, 255, 255, 0.3)' 
-                  },
-                  '&:hover .MuiOutlinedInput-notchedOutline': { 
-                    borderColor: 'rgba(255, 255, 255, 0.5)' 
-                  },
-                  '&.Mui-focused .MuiOutlinedInput-notchedOutline': { 
-                    borderColor: 'white' 
-                  },
-                  '.MuiSelect-icon': { 
-                    color: 'white' 
-                  },
-                  minWidth: '180px'
-                }}
-              >
-                <MenuItem value={2025}>📚 Page 199 (2025)</MenuItem>
-                <MenuItem value={2024}>Errors of Ersen (2024)</MenuItem>
-                <MenuItem value={2023}>Womanfred's World (2023)</MenuItem>
-              </Select>
-            )}
-            
-            {/* Mobile: Show current league name */}
-            {isMobile && (
-              <Typography variant="subtitle1" noWrap sx={{ fontWeight: 500 }}>
-                {getLeagueName()}
-              </Typography>
-            )}
-          </Box>
+          {/* Mobile: Show current league name */}
+          {isMobile && (
+            <Typography variant="subtitle1" noWrap sx={{ fontWeight: 500, flexGrow: 1 }}>
+              {getLeagueName()}
+            </Typography>
+          )}
 
-          {/* Desktop tabs */}
+          {/* Desktop: show tabs and year selector in same row */}
           {!isMobile && (
-            <Box sx={{ flexGrow: 1, overflowX: 'auto' }}>
+            <Box sx={{ 
+              display: 'flex', 
+              flexGrow: 1, 
+              alignItems: 'center', 
+              flexDirection: 'row',
+              overflowX: 'auto'
+            }}>
               <Tabs
                 value={tabValue}
                 onChange={handleTabChange}
@@ -318,6 +291,7 @@ function App() {
                 scrollButtons="auto"
                 allowScrollButtonsMobile
                 sx={{
+                  flexGrow: 1,
                   ".Mui-selected": {
                     fontWeight: "bold",
                     outline: "none",
@@ -336,22 +310,50 @@ function App() {
                   />
                 ))}
               </Tabs>
+              
+              {/* Year selector in the same row */}
+              <Box sx={{ ml: 2, minWidth: '180px', flexShrink: 0 }}>
+                <Select
+                  value={year}
+                  onChange={handleYearChange}
+                  size="small"
+                  sx={{ 
+                    color: 'white', 
+                    '.MuiOutlinedInput-notchedOutline': { 
+                      borderColor: 'rgba(255, 255, 255, 0.3)' 
+                    },
+                    '&:hover .MuiOutlinedInput-notchedOutline': { 
+                      borderColor: 'rgba(255, 255, 255, 0.5)' 
+                    },
+                    '&.Mui-focused .MuiOutlinedInput-notchedOutline': { 
+                      borderColor: 'white' 
+                    },
+                    '.MuiSelect-icon': { 
+                      color: 'white' 
+                    },
+                    width: '100%'
+                  }}
+                >
+                  <MenuItem value={2025}>📚 Page 199 (2025)</MenuItem>
+                  <MenuItem value={2024}>Errors of Ersen (2024)</MenuItem>
+                  <MenuItem value={2023}>Womanfred's World (2023)</MenuItem>
+                </Select>
+              </Box>
             </Box>
           )}
         </Toolbar>
       </AppBar>
 
-      {/* Info text banner - Now dismissable */}
-      {getInfoText() && showInfoBanner && (
+      {/* Info text banner */}
+      {getInfoText() && (
         <Paper 
           elevation={0} 
           sx={{ 
-            p: 1, 
-            mb: 1, 
+            p: 1.5, 
+            mb: 2, 
             backgroundColor: '#f8f9fa',
             borderBottom: '1px solid #e0e0e0',
-            borderRadius: 0,
-            position: 'relative'
+            borderRadius: 0
           }}
         >
           <Box sx={{ 
@@ -361,31 +363,29 @@ function App() {
             gap: 1,
             maxWidth: '900px',
             mx: 'auto',
-            pr: 4,
-            pl: 2
+            px: 2,
+            position: 'relative'
           }}>
-            <InfoIcon color="info" fontSize="small" sx={{ mt: 0.25, flexShrink: 0 }} />
+            <InfoIcon color="info" fontSize="small" sx={{ mt: 0.5, flexShrink: 0 }} />
             <Typography 
-              variant="caption" 
+              variant="body2" 
               color="text.secondary" 
               sx={{ 
                 fontStyle: 'italic',
                 textAlign: 'left',
-                fontSize: isMobile ? '0.65rem' : '0.75rem'
+                flexGrow: 1
               }}
             >
               {getInfoText()}
             </Typography>
             <IconButton 
               size="small" 
-              sx={{ 
-                position: 'absolute', 
-                right: 4, 
-                top: '50%', 
-                transform: 'translateY(-50%)',
-                padding: 0.5
-              }}
               onClick={() => setShowInfoBanner(false)}
+              sx={{ 
+                ml: 1, 
+                p: 0.5,
+                flexShrink: 0
+              }}
             >
               <CloseIcon fontSize="small" />
             </IconButton>
