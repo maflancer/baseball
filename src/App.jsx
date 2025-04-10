@@ -154,7 +154,7 @@ function App() {
     if (!showInfoBanner) return null;
     
     if (tabValue === 0 || tabValue === 4) {
-      return "*EXPECTED POINTS: Weekly stat rankings award points: 14 for 1st place down to 1 for 14th (14-team league). Tied teams receive the average of their positions (e.g., teams tied for 1st-2nd each get 13.5 points)";
+      return "*EXPECTED POINTS: Teams earn points in each stat category based on weekly rankings: 14 points for 1st place down to 1 point for 14th. Tied teams receive the average of their positions (e.g., teams tied for 1st-2nd get 13.5 points each).";
     } else if (tabValue === 1 || tabValue === 2 || tabValue === 3) {
       return "*Normal weeks are 7 days. Week 1 is 10 days and week 15 (all star break) is 14 days.";
     }
