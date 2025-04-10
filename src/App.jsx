@@ -35,11 +35,13 @@ import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import ShowChartIcon from "@mui/icons-material/ShowChart";
 import EqualizerIcon from "@mui/icons-material/Equalizer";
 import CloseIcon from "@mui/icons-material/Close";
+import SportsBaseballIcon from "@mui/icons-material/SportsBaseball";
 import WeeklyStatLeaders from "./components/WeeklyStatLeaders";
 import TeamStats from "./components/TeamStats";
 import GraphStats from "./components/GraphStats";
 import Standings from "./components/Standings";
 import TeamPerformance from "./components/TeamPerformance";
+import ProbablePitchers from "./components/ProbablePitchers";
 
 function App() {
   const dispatch = useDispatch();
@@ -127,6 +129,8 @@ function App() {
         return <ShowChartIcon />;
       case 4:
         return <EqualizerIcon />;
+      case 5:
+        return <SportsBaseballIcon />;
       default:
         return <TableChartIcon />;
     }
@@ -138,7 +142,8 @@ function App() {
     "Weekly Leaders",
     "Team Stats",
     "Stat Trends", 
-    "Performance"
+    "Performance",
+    "Probable Pitchers"
   ];
 
   // State to track banner visibility
@@ -422,6 +427,7 @@ function App() {
               {tabValue === 2 && <TeamStats data={teamData} tabValue={tabValue} />}
               {tabValue === 3 && <GraphStats data={teamData} />}
               {tabValue === 4 && <TeamPerformance data={standingsData} />}
+              {tabValue === 5 && <ProbablePitchers/>}
             </>
           )}
         </Paper>
