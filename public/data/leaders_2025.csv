@@ -1,13 +1,13 @@
 week,stat,teams,val
-1,R,"Matt's Team,Dante's Team",61.0
-1,HR,Matt's Team,24.0
+1,R,"Sweet Bibee Rays,Dante's Team",61.0
+1,HR,Sweet Bibee Rays,24.0
 1,RBI,Mr. Castillo Girl,64.0
 1,SB,Dante's Team,14.0
-1,TB,Matt's Team,175.0
+1,TB,Sweet Bibee Rays,175.0
 1,AVG,Mr. Castillo Girl,0.283
 1,OBP,50 Shades of Greene,0.364
-1,IP,Matt's Team,109.2
-1,K,Matt's Team,104.0
+1,IP,Sweet Bibee Rays,109.2
+1,K,Sweet Bibee Rays,104.0
 1,ERA,Nate's Team,2.34
 1,WHIP,Nate's Team,0.95
 1,SV,Gabe's Team,11.0
@@ -17,9 +17,45 @@ week,stat,teams,val
 2,SB,Dawson's Team,18.0
 2,TB,Woo-Tang Clan,113.0
 2,AVG,WhatchYusei,0.285
-2,OBP,Matt's Team,0.352
+2,OBP,Sweet Bibee Rays,0.352
 2,IP,Nate's Team,73.2
 2,K,Mr. Castillo Girl,79.0
 2,ERA,Woo-Tang Clan,0.97
-2,WHIP,Matt's Team,0.91
+2,WHIP,Sweet Bibee Rays,0.91
 2,SV,Clase Closers,10.0
+3,R,Dawson's Team,39.0
+3,HR,Jahn's Team,16.0
+3,RBI,Dante's Team,44.0
+3,SB,Turang-a Leela,13.0
+3,TB,Dante's Team,124.0
+3,AVG,Dante's Team,0.271
+3,OBP,50 Shades of Greene,0.348
+3,IP,WhatchYusei,75.2
+3,K,WhatchYusei,80.0
+3,ERA,Turang-a Leela,0.73
+3,WHIP,Turang-a Leela,0.89
+3,SV,Clase Closers,9.0
+4,R,Dante's Team,41.0
+4,HR,Dante's Team,12.0
+4,RBI,Ian's Team,35.0
+4,SB,Turang-a Leela,14.0
+4,TB,Dante's Team,128.0
+4,AVG,Ian's Team,0.313
+4,OBP,Sweet Bibee Rays,0.382
+4,IP,Nate's Team,63.0
+4,K,Nate's Team,64.0
+4,ERA,Gabe's Team,1.92
+4,WHIP,Gabe's Team,0.93
+4,SV,Clase Closers,7.0
+5,R,David's Team,44.0
+5,HR,Dawson's Team,16.0
+5,RBI,Dawson's Team,45.0
+5,SB,Turang-a Leela,11.0
+5,TB,Gabe's Team,125.0
+5,AVG,Sweet Bibee Rays,0.315
+5,OBP,Gabe's Team,0.39
+5,IP,Sweet Bibee Rays,86.1
+5,K,Sweet Bibee Rays,82.0
+5,ERA,Woo-Tang Clan,1.72
+5,WHIP,Woo-Tang Clan,0.9
+5,SV,Clase Closers,10.0

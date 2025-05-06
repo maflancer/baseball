@@ -1,735 +1,733 @@
 {
-  "date_pulled": "2025-04-14 20:31:35",
+  "date_pulled": "2025-05-06 18:49:29",
   "match_stats": {
     "matched_pitchers": 54,
-    "total_roster_players": 328,
-    "match_percentage": 16.46
+    "total_roster_players": 334,
+    "match_percentage": 16.17
   },
   "matches": {
-    "Seth Lugo": "Seth Lugo",
-    "Trevor Megill": "Tylor Megill",
-    "Aaron Nola": "Aaron Nola",
-    "Paul Skenes": "Paul Skenes",
-    "Dylan Cease": "Dylan Cease",
-    "Jes\u00fas Luzardo": "Jes\u00fas Luzardo",
-    "Michael Wacha": "Michael Wacha",
-    "Robbie Ray": "Robbie Ray",
-    "Easton Lucas": "Easton Lucas",
-    "Mitch Keller": "Mitch Keller",
-    "Brady Singer": "Brady Singer",
-    "Tanner Bibee": "Tanner Bibee",
-    "Bailey Ober": "Bailey Ober",
-    "Brandon Pfaadt": "Brandon Pfaadt",
-    "Kevin Gausman": "Kevin Gausman",
-    "Grant Holmes": "Grant Holmes",
-    "Jordan Hicks": "Jordan Hicks",
-    "Yusei Kikuchi": "Yusei Kikuchi",
-    "Zack Wheeler": "Zack Wheeler",
-    "Andrew Heaney": "Andrew Heaney",
-    "Luis Castillo": "Luis Castillo",
-    "Ryan Pepiot": "Ryan Pepiot",
+    "Andrew Abbott": "Andrew Abbott",
     "Spencer Schwellenbach": "Spencer Schwellenbach",
-    "Nick Pivetta": "Nick Pivetta",
-    "Jos\u00e9 Soriano": "Jos\u00e9 Soriano",
-    "Max Meyer": "Max Meyer",
-    "Joe Ryan": "Joe Ryan",
-    "Sonny Gray": "Sonny Gray",
-    "Tanner Houck": "Tanner Houck",
-    "Shane Baz": "Shane Baz",
-    "Kris Bubic": "Kris Bubic",
-    "Dustin May": "Dustin May",
-    "Bryce Miller": "Bryce Miller",
-    "Mitchell Parker": "Mitchell Parker",
+    "Ryan Pepiot": "Ryan Pepiot",
+    "Seth Lugo": "Seth Lugo",
+    "Nathan Eovaldi": "Nathan Eovaldi",
+    "Zac Gallen": "Zac Gallen",
+    "Jos\u00e9 Berr\u00edos": "Jos\u00e9 Berr\u00edos",
+    "Dylan Cease": "Dylan Cease",
+    "Jeffrey Springs": "Jeffrey Springs",
+    "Jes\u00fas Luzardo": "Jes\u00fas Luzardo",
+    "Paul Skenes": "Paul Skenes",
+    "Justin Verlander": "Justin Verlander",
+    "Michael Wacha": "Michael Wacha",
+    "Miles Mikolas": "Miles Mikolas",
+    "Pablo L\u00f3pez": "Pablo L\u00f3pez",
+    "David Peterson": "David Peterson",
     "Bryan Woo": "Bryan Woo",
-    "Taijuan Walker": "Taijuan Walker",
-    "Hunter Brown": "Hunter Brown",
+    "Brady Singer": "Brady Singer",
+    "Robbie Ray": "Robbie Ray",
+    "Tanner Bibee": "Tanner Bibee",
+    "Matthew Liberatore": "Matthew Liberatore",
+    "Shane Baz": "Shane Baz",
+    "Grant Holmes": "Grant Holmes",
+    "Kris Bubic": "Kris Bubic",
+    "Hunter Greene": "Hunter Greene",
+    "Tyler Mahle": "Tyler Mahle",
+    "Merrill Kelly": "Merrill Kelly",
+    "Kodai Senga": "Kodai Senga",
+    "Yusei Kikuchi": "Yusei Kikuchi",
+    "Sonny Gray": "Sonny Gray",
+    "Chris Sale": "Chris Sale",
+    "Joe Ryan": "Joe Ryan",
+    "Tanner Houck": "Tanner Houck",
+    "Jake Irvin": "Jake Irvin",
+    "Zack Wheeler": "Zack Wheeler",
+    "Luis L. Ortiz": "Luis L. Ortiz",
+    "Brayan Bello": "Brayan Bello",
+    "Clarke Schmidt": "Clarke Schmidt",
+    "Colin Rea": "Colin Rea",
+    "Max Fried": "Max Fried",
+    "Casey Mize": "Casey Mize",
+    "Drew Rasmussen": "Drew Rasmussen",
+    "Tarik Skubal": "Tarik Skubal",
     "Chris Bassitt": "Chris Bassitt",
     "Gavin Williams": "Gavin Williams",
-    "Tarik Skubal": "Tarik Skubal",
-    "Tylor Megill": "Tylor Megill",
     "Cristopher S\u00e1nchez": "Cristopher S\u00e1nchez",
-    "Spencer Strider": "Spencer Strider",
-    "Matthew Boyd": "Matthew Boyd",
-    "Max Fried": "Max Fried",
-    "Shota Imanaga": "Shota Imanaga",
-    "Clarke Schmidt": "Clarke Schmidt",
-    "Nick Lodolo": "Nick Lodolo",
-    "Tyler Alexander": "Tyler Alexander",
-    "Jameson Taillon": "Jameson Taillon",
-    "Zack Littell": "Zack Littell",
-    "Ronel Blanco": "Ronel Blanco",
+    "Hayden Wesneski": "Hayden Wesneski",
+    "Michael King": "Michael King",
+    "Tyler Anderson": "Tyler Anderson",
     "Framber Valdez": "Framber Valdez",
-    "Jack Flaherty": "Jack Flaherty"
+    "Nick Lodolo": "Nick Lodolo",
+    "Lucas Giolito": "Lucas Giolito",
+    "Tony Gonsolin": "Tony Gonsolin",
+    "Shane Smith": "Shane Smith"
   },
   "pitchers_by_date": {
-    "2025-04-14": {
+    "2025-05-06": {
+      "Nate's Team": [
+        {
+          "title": "Andrew Abbott (Reds vs Braves)",
+          "throws": "LHP",
+          "record": "2-0",
+          "era": "2.84",
+          "strikeouts": "23",
+          "game_time": "",
+          "venue": "At Truist Park",
+          "tv": "TV: FanDuel Sports Network South, FanDuel Sports Network Ohio, FanDuel Sports Network Southeast",
+          "home_away": "away"
+        }
+      ],
       "Gabe's Team": [
         {
-          "title": "Seth Lugo (Royals vs Yankees)",
+          "title": "Seth Lugo (Royals vs White Sox)",
           "throws": "RHP",
-          "record": "1-1",
-          "era": "4.15",
-          "strikeouts": "16",
+          "record": "3-3",
+          "era": "3.07",
+          "strikeouts": "34",
           "game_time": "",
-          "venue": "At Yankee Stadium",
-          "tv": "TV: YES, FanDuel Sports Kansas City, MLBN",
+          "venue": "At Kauffman Stadium",
+          "tv": "TV: FanDuel Sports Network Kansas City, CHSN",
+          "home_away": "home"
+        },
+        {
+          "title": "Nathan Eovaldi (Rangers vs Red Sox)",
+          "throws": "RHP",
+          "record": "2-2",
+          "era": "2.11",
+          "strikeouts": "46",
+          "game_time": "",
+          "venue": "At Fenway Park",
+          "tv": "TV: Rangers Sports Network, NESN, Victory+",
           "home_away": "away"
+        },
+        {
+          "title": "Zac Gallen (D-backs vs Mets)",
+          "throws": "RHP",
+          "record": "2-4",
+          "era": "4.93",
+          "strikeouts": "43",
+          "game_time": "",
+          "venue": "At Chase Field",
+          "tv": "TV: Dbacks.TV, SNY, MLBN (out-of-market only)",
+          "home_away": "home"
         }
       ],
       "Dante's Team": [
         {
-          "title": "Paul Skenes (Pirates vs Nationals)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "2.96",
-          "strikeouts": "26",
+          "title": "Jeffrey Springs (Athletics vs Mariners)",
+          "throws": "LHP",
+          "record": "4-3",
+          "era": "4.98",
+          "strikeouts": "28",
           "game_time": "",
-          "venue": "At PNC Park",
-          "tv": "TV: MASN, SportsNet-PIT",
+          "venue": "At Sutter Health Park",
+          "tv": "TV: NBCSCA, ROOTNW",
           "home_away": "home"
         },
         {
-          "title": "Dylan Cease (Padres vs Cubs)",
+          "title": "Paul Skenes (Pirates vs Cardinals)",
           "throws": "RHP",
-          "record": "1-1",
-          "era": "7.98",
-          "strikeouts": "18",
+          "record": "3-3",
+          "era": "2.74",
+          "strikeouts": "41",
           "game_time": "",
-          "venue": "At Petco Park",
-          "tv": "TV: Marquee Sports Network, Padres.TV",
-          "home_away": "home"
-        }
-      ],
-      "Matt's Team": [
-        {
-          "title": "Easton Lucas (Blue Jays vs Braves)",
-          "throws": "LHP",
-          "record": "2-0",
-          "era": "4.70",
-          "strikeouts": "14",
-          "game_time": "",
-          "venue": "At Rogers Centre",
-          "tv": "TV: Sportsnet, FanDuel Sports South, FanDuel Sports Southeast, SN1, TVA Sports",
-          "home_away": "home"
-        }
-      ],
-      "WhatchYusei": [
-        {
-          "title": "Grant Holmes (Braves vs Blue Jays)",
-          "throws": "RHP",
-          "record": "0-1",
-          "era": "2.57",
-          "strikeouts": "13",
-          "game_time": "",
-          "venue": "At Rogers Centre",
-          "tv": "TV: Sportsnet, FanDuel Sports South, FanDuel Sports Southeast, SN1, TVA Sports",
+          "venue": "At Busch Stadium",
+          "tv": "TV: SportsNet-PIT, FanDuel Sports Network Midwest",
           "home_away": "away"
+        },
+        {
+          "title": "Justin Verlander (Giants vs Cubs)",
+          "throws": "RHP",
+          "record": "0-2",
+          "era": "4.38",
+          "strikeouts": "32",
+          "game_time": "",
+          "venue": "At Wrigley Field",
+          "tv": "TV: NBCS BA, Marquee Sports Network",
+          "home_away": "away"
+        }
+      ],
+      "Woo-Tang Clan": [
+        {
+          "title": "Pablo L\u00f3pez (Twins vs Orioles)",
+          "throws": "RHP",
+          "record": "2-2",
+          "era": "2.25",
+          "strikeouts": "26",
+          "game_time": "",
+          "venue": "At Target Field",
+          "tv": "TV: MASN, Twins.TV Presented by Progressive, KMSP, MASN+",
+          "home_away": "home"
+        },
+        {
+          "title": "David Peterson (Mets vs D-backs)",
+          "throws": "LHP",
+          "record": "2-1",
+          "era": "3.06",
+          "strikeouts": "30",
+          "game_time": "",
+          "venue": "At Chase Field",
+          "tv": "TV: Dbacks.TV, SNY, MLBN (out-of-market only)",
+          "home_away": "away"
+        }
+      ],
+      "50 Shades of Greene": [
+        {
+          "title": "Matthew Liberatore (Cardinals vs Pirates)",
+          "throws": "LHP",
+          "record": "2-3",
+          "era": "3.44",
+          "strikeouts": "30",
+          "game_time": "",
+          "venue": "At Busch Stadium",
+          "tv": "TV: SportsNet-PIT, FanDuel Sports Network Midwest",
+          "home_away": "home"
         }
       ],
       "Clase Closers": [
         {
-          "title": "Joe Ryan (Twins vs Mets)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "2.70",
-          "strikeouts": "20",
+          "title": "Chris Sale (Braves vs Reds)",
+          "throws": "LHP",
+          "record": "1-3",
+          "era": "4.84",
+          "strikeouts": "46",
           "game_time": "",
-          "venue": "At Target Field",
-          "tv": "TV: Twins.TV Presented by Progressive, SNY",
+          "venue": "At Truist Park",
+          "tv": "TV: FanDuel Sports Network South, FanDuel Sports Network Ohio, FanDuel Sports Network Southeast",
+          "home_away": "home"
+        }
+      ],
+      "Mr. Castillo Girl": [
+        {
+          "title": "Jake Irvin (Nationals vs Guardians)",
+          "throws": "RHP",
+          "record": "2-1",
+          "era": "3.94",
+          "strikeouts": "33",
+          "game_time": "",
+          "venue": "At Nationals Park",
+          "tv": "",
           "home_away": "home"
         },
         {
-          "title": "Sonny Gray (Cardinals vs Astros)",
+          "title": "Zack Wheeler (Phillies vs Rays)",
           "throws": "RHP",
-          "record": "2-0",
-          "era": "3.79",
-          "strikeouts": "20",
-          "game_time": "",
-          "venue": "At Busch Stadium",
-          "tv": "TV: Space City Home Network, FanDuel Sports Midwest",
-          "home_away": "home"
-        },
-        {
-          "title": "Tanner Houck (Red Sox vs Rays)",
-          "throws": "RHP",
-          "record": "0-1",
-          "era": "9.16",
-          "strikeouts": "11",
+          "record": "2-1",
+          "era": "3.48",
+          "strikeouts": "57",
           "game_time": "",
           "venue": "At George M. Steinbrenner Field",
-          "tv": "TV: FanDuel Sports Sun, NESN",
+          "tv": "TV: NBCSP, FanDuel Sports Network Sun",
+          "home_away": "away"
+        },
+        {
+          "title": "Luis L. Ortiz (Guardians vs Nationals)",
+          "throws": "RHP",
+          "record": "2-3",
+          "era": "5.30",
+          "strikeouts": "40",
+          "game_time": "",
+          "venue": "At Nationals Park",
+          "tv": "",
+          "home_away": "away"
+        }
+      ],
+      "Dawson's Team": [
+        {
+          "title": "Clarke Schmidt (Yankees vs Padres)",
+          "throws": "RHP",
+          "record": "0-1",
+          "era": "5.52",
+          "strikeouts": "15",
+          "game_time": "",
+          "venue": "At Yankee Stadium",
+          "tv": "TV: YES, Padres.TV, TBS (out-of-market only)",
+          "home_away": "home"
+        },
+        {
+          "title": "Colin Rea (Cubs vs Giants)",
+          "throws": "RHP",
+          "record": "2-0",
+          "era": "1.46",
+          "strikeouts": "21",
+          "game_time": "",
+          "venue": "At Wrigley Field",
+          "tv": "TV: NBCS BA, Marquee Sports Network",
+          "home_away": "home"
+        }
+      ],
+      "Turang-a Leela": [
+        {
+          "title": "Drew Rasmussen (Rays vs Phillies)",
+          "throws": "RHP",
+          "record": "1-2",
+          "era": "2.64",
+          "strikeouts": "30",
+          "game_time": "",
+          "venue": "At George M. Steinbrenner Field",
+          "tv": "TV: NBCSP, FanDuel Sports Network Sun",
+          "home_away": "home"
+        }
+      ],
+      "David's Team": [
+        {
+          "title": "Hayden Wesneski (Astros vs Brewers)",
+          "throws": "RHP",
+          "record": "1-2",
+          "era": "3.86",
+          "strikeouts": "26",
+          "game_time": "",
+          "venue": "At American Family Field",
+          "tv": "TV: Space City Home Network, FanDuel Sports Network Wisconsin",
+          "home_away": "away"
+        },
+        {
+          "title": "Michael King (Padres vs Yankees)",
+          "throws": "RHP",
+          "record": "4-1",
+          "era": "2.09",
+          "strikeouts": "46",
+          "game_time": "",
+          "venue": "At Yankee Stadium",
+          "tv": "TV: YES, Padres.TV, TBS (out-of-market only)",
+          "home_away": "away"
+        },
+        {
+          "title": "Tyler Anderson (Angels vs Blue Jays)",
+          "throws": "LHP",
+          "record": "2-0",
+          "era": "2.67",
+          "strikeouts": "27",
+          "game_time": "",
+          "venue": "At Angel Stadium",
+          "tv": "TV: SN1, FanDuel Sports Network West, MLBN (out-of-market only)",
+          "home_away": "home"
+        }
+      ],
+      "Ian's Team": [
+        {
+          "title": "Lucas Giolito (Red Sox vs Rangers)",
+          "throws": "RHP",
+          "record": "0-0",
+          "era": "4.50",
+          "strikeouts": "7",
+          "game_time": "",
+          "venue": "At Fenway Park",
+          "tv": "TV: Rangers Sports Network, NESN, Victory+",
+          "home_away": "home"
+        },
+        {
+          "title": "Tony Gonsolin (Dodgers vs Marlins)",
+          "throws": "RHP",
+          "record": "1-0",
+          "era": "4.50",
+          "strikeouts": "9",
+          "game_time": "",
+          "venue": "At loanDepot park",
+          "tv": "TV: SportsNet LA, FanDuel Sports Network Florida",
+          "home_away": "away"
+        }
+      ]
+    },
+    "2025-05-08": {
+      "Nate's Team": [
+        {
+          "title": "Spencer Schwellenbach (Braves vs Reds)",
+          "throws": "RHP",
+          "record": "1-3",
+          "era": "3.92",
+          "strikeouts": "37",
+          "game_time": "",
+          "venue": "At Truist Park",
+          "tv": "TV: FanDuel Sports Network Ohio, FanDuel Sports Network South, FanDuel Sports Network Southeast, MLBN (out-of-market only)",
+          "home_away": "home"
+        },
+        {
+          "title": "Ryan Pepiot (Rays vs Phillies)",
+          "throws": "RHP",
+          "record": "2-4",
+          "era": "4.23",
+          "strikeouts": "35",
+          "game_time": "",
+          "venue": "At George M. Steinbrenner Field",
+          "tv": "TV: NBCSP, FanDuel Sports Network Sun, MLBN (out-of-market only)",
+          "home_away": "home"
+        }
+      ],
+      "Dante's Team": [
+        {
+          "title": "Jes\u00fas Luzardo (Phillies vs Rays)",
+          "throws": "LHP",
+          "record": "3-0",
+          "era": "1.94",
+          "strikeouts": "47",
+          "game_time": "",
+          "venue": "At George M. Steinbrenner Field",
+          "tv": "TV: NBCSP, FanDuel Sports Network Sun, MLBN (out-of-market only)",
           "home_away": "away"
         }
       ],
       "50 Shades of Greene": [
         {
-          "title": "Shane Baz (Rays vs Red Sox)",
-          "throws": "RHP",
-          "record": "1-0",
-          "era": "1.59",
-          "strikeouts": "23",
+          "title": "Kris Bubic (Royals vs White Sox)",
+          "throws": "LHP",
+          "record": "3-2",
+          "era": "1.98",
+          "strikeouts": "40",
           "game_time": "",
-          "venue": "At George M. Steinbrenner Field",
-          "tv": "TV: FanDuel Sports Sun, NESN",
-          "home_away": "home"
-        },
-        {
-          "title": "Dustin May (Dodgers vs Rockies)",
-          "throws": "RHP",
-          "record": "0-1",
-          "era": "0.82",
-          "strikeouts": "7",
-          "game_time": "",
-          "venue": "At Dodger Stadium",
-          "tv": "TV: SportsNet LA, Rockies.TV",
+          "venue": "At Kauffman Stadium",
+          "tv": "TV: FanDuel Sports Network Kansas City, CHSN",
           "home_away": "home"
         }
       ],
-      "Woo-Tang Clan": [
+      "Clase Closers": [
         {
-          "title": "Taijuan Walker (Phillies vs Giants)",
+          "title": "Joe Ryan (Twins vs Orioles)",
           "throws": "RHP",
-          "record": "1-0",
-          "era": "2.30",
-          "strikeouts": "14",
+          "record": "2-2",
+          "era": "2.93",
+          "strikeouts": "47",
           "game_time": "",
-          "venue": "At Citizens Bank Park",
-          "tv": "TV: NBCSP, NBCS BA",
+          "venue": "At Target Field",
+          "tv": "TV: Twins.TV Presented by Progressive, MASN, MLBN (out-of-market only), MASN+",
+          "home_away": "home"
+        }
+      ],
+      "Mr. Castillo Girl": [
+        {
+          "title": "Brayan Bello (Red Sox vs Rangers)",
+          "throws": "RHP",
+          "record": "2-0",
+          "era": "2.55",
+          "strikeouts": "12",
+          "game_time": "",
+          "venue": "At Fenway Park",
+          "tv": "TV: Rangers Sports Network, NESN, Victory+, MLBN (out-of-market only)",
           "home_away": "home"
         }
       ],
       "Jahn's Team": [
         {
-          "title": "Tarik Skubal (Tigers vs Brewers)",
+          "title": "Tarik Skubal (Tigers vs Rockies)",
           "throws": "LHP",
-          "record": "1-2",
-          "era": "3.20",
-          "strikeouts": "20",
+          "record": "3-2",
+          "era": "2.21",
+          "strikeouts": "48",
           "game_time": "",
-          "venue": "At American Family Field",
-          "tv": "TV: FanDuel Sports Detroit, FanDuel Sports Wisconsin",
+          "venue": "At Coors Field",
+          "tv": "TV: Rockies.TV, FanDuel Sports Network Detroit",
+          "home_away": "away"
+        },
+        {
+          "title": "Chris Bassitt (Blue Jays vs Angels)",
+          "throws": "RHP",
+          "record": "2-2",
+          "era": "2.95",
+          "strikeouts": "43",
+          "game_time": "",
+          "venue": "At Angel Stadium",
+          "tv": "TV: SN1, FanDuel Sports Network West",
           "home_away": "away"
         }
       ],
       "Ian's Team": [
         {
-          "title": "Tyler Alexander (Brewers vs Tigers)",
+          "title": "Nick Lodolo (Reds vs Braves)",
           "throws": "LHP",
-          "record": "1-0",
-          "era": "3.45",
-          "strikeouts": "14",
+          "record": "3-3",
+          "era": "3.27",
+          "strikeouts": "31",
           "game_time": "",
-          "venue": "At American Family Field",
-          "tv": "TV: FanDuel Sports Detroit, FanDuel Sports Wisconsin",
-          "home_away": "home"
-        },
-        {
-          "title": "Jameson Taillon (Cubs vs Padres)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "6.06",
-          "strikeouts": "14",
-          "game_time": "",
-          "venue": "At Petco Park",
-          "tv": "TV: Marquee Sports Network, Padres.TV",
-          "home_away": "away"
-        }
-      ],
-      "David's Team": [
-        {
-          "title": "Framber Valdez (Astros vs Cardinals)",
-          "throws": "LHP",
-          "record": "1-1",
-          "era": "2.61",
-          "strikeouts": "23",
-          "game_time": "",
-          "venue": "At Busch Stadium",
-          "tv": "TV: Space City Home Network, FanDuel Sports Midwest",
+          "venue": "At Truist Park",
+          "tv": "TV: FanDuel Sports Network Ohio, FanDuel Sports Network South, FanDuel Sports Network Southeast, MLBN (out-of-market only)",
           "home_away": "away"
         }
       ]
     },
-    "2025-04-15": {
+    "2025-05-07": {
       "Gabe's Team": [
         {
-          "title": "Trevor Megill (Mets vs Twins)",
+          "title": "Jos\u00e9 Berr\u00edos (Blue Jays vs Angels)",
           "throws": "RHP",
-          "record": "2-1",
-          "era": "0.63",
-          "strikeouts": "17",
+          "record": "1-1",
+          "era": "3.98",
+          "strikeouts": "36",
           "game_time": "",
-          "venue": "At Target Field",
-          "tv": "TV: Twins.TV Presented by Progressive, SNY, KMSP",
+          "venue": "At Angel Stadium",
+          "tv": "TV: SN1, FanDuel Sports Network West",
           "home_away": "away"
         }
       ],
       "Dante's Team": [
         {
-          "title": "Jes\u00fas Luzardo (Phillies vs Giants)",
-          "throws": "LHP",
-          "record": "2-0",
-          "era": "1.50",
-          "strikeouts": "25",
-          "game_time": "",
-          "venue": "At Citizens Bank Park",
-          "tv": "TV: NBCSP+, NBCS BA",
-          "home_away": "home"
-        },
-        {
-          "title": "Michael Wacha (Royals vs Yankees)",
+          "title": "Dylan Cease (Padres vs Yankees)",
           "throws": "RHP",
-          "record": "0-2",
-          "era": "4.20",
-          "strikeouts": "11",
+          "record": "1-2",
+          "era": "5.61",
+          "strikeouts": "39",
           "game_time": "",
           "venue": "At Yankee Stadium",
-          "tv": "TV: YES, FanDuel Sports Kansas City",
-          "home_away": "away"
-        }
-      ],
-      "Matt's Team": [
-        {
-          "title": "Mitch Keller (Pirates vs Nationals)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "4.24",
-          "strikeouts": "14",
-          "game_time": "",
-          "venue": "At PNC Park",
-          "tv": "TV: SportsNet-PIT, MASN",
-          "home_away": "home"
-        },
-        {
-          "title": "Bailey Ober (Twins vs Mets)",
-          "throws": "RHP",
-          "record": "0-1",
-          "era": "7.11",
-          "strikeouts": "12",
-          "game_time": "",
-          "venue": "At Target Field",
-          "tv": "TV: Twins.TV Presented by Progressive, SNY, KMSP",
-          "home_away": "home"
-        }
-      ],
-      "WhatchYusei": [
-        {
-          "title": "Kevin Gausman (Blue Jays vs Braves)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "2.33",
-          "strikeouts": "14",
-          "game_time": "",
-          "venue": "At Rogers Centre",
-          "tv": "TV: Sportsnet, FanDuel Sports South, FanDuel Sports Southeast, SN1",
-          "home_away": "home"
-        },
-        {
-          "title": "Yusei Kikuchi (Angels vs Rangers)",
-          "throws": "LHP",
-          "record": "0-2",
-          "era": "5.00",
-          "strikeouts": "16",
-          "game_time": "",
-          "venue": "At Globe Life Field",
-          "tv": "TV: FanDuel Sports West, Rangers Sports Network, Victory+",
-          "home_away": "away"
-        }
-      ],
-      "Mr. Castillo Girl": [
-        {
-          "title": "Luis Castillo (Mariners vs Reds)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "2.12",
-          "strikeouts": "15",
-          "game_time": "",
-          "venue": "At Great American Ball Park",
-          "tv": "TV: ROOTNW, FanDuel Sports Ohio",
-          "home_away": "away"
-        }
-      ],
-      "Nate's Team": [
-        {
-          "title": "Ryan Pepiot (Rays vs Red Sox)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "3.38",
-          "strikeouts": "16",
-          "game_time": "",
-          "venue": "At George M. Steinbrenner Field",
-          "tv": "TV: NESN, FanDuel Sports Sun, FanDuel App (TB)",
-          "home_away": "home"
-        },
-        {
-          "title": "Spencer Schwellenbach (Braves vs Blue Jays)",
-          "throws": "RHP",
-          "record": "1-0",
-          "era": "0.45",
-          "strikeouts": "19",
-          "game_time": "",
-          "venue": "At Rogers Centre",
-          "tv": "TV: Sportsnet, FanDuel Sports South, FanDuel Sports Southeast, SN1",
-          "home_away": "away"
-        }
-      ],
-      "Turang-a Leela": [
-        {
-          "title": "Hunter Brown (Astros vs Cardinals)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "2.00",
-          "strikeouts": "18",
-          "game_time": "",
-          "venue": "At Busch Stadium",
-          "tv": "TV: FanDuel Sports Midwest Extra, Space City Home Network",
-          "home_away": "away"
-        }
-      ],
-      "Jahn's Team": [
-        {
-          "title": "Tylor Megill (Mets vs Twins)",
-          "throws": "RHP",
-          "record": "2-1",
-          "era": "0.63",
-          "strikeouts": "17",
-          "game_time": "",
-          "venue": "At Target Field",
-          "tv": "TV: Twins.TV Presented by Progressive, SNY, KMSP",
-          "home_away": "away"
-        }
-      ],
-      "Dawson's Team": [
-        {
-          "title": "Max Fried (Yankees vs Royals)",
-          "throws": "LHP",
-          "record": "2-0",
-          "era": "1.56",
-          "strikeouts": "21",
-          "game_time": "",
-          "venue": "At Yankee Stadium",
-          "tv": "TV: YES, FanDuel Sports Kansas City",
-          "home_away": "home"
-        },
-        {
-          "title": "Shota Imanaga (Cubs vs Padres)",
-          "throws": "LHP",
-          "record": "2-1",
-          "era": "2.70",
-          "strikeouts": "14",
-          "game_time": "",
-          "venue": "At Petco Park",
-          "tv": "TV: Padres.TV, Marquee Sports Network",
-          "home_away": "away"
-        }
-      ],
-      "Ian's Team": [
-        {
-          "title": "Nick Lodolo (Reds vs Mariners)",
-          "throws": "LHP",
-          "record": "2-1",
-          "era": "0.96",
-          "strikeouts": "8",
-          "game_time": "",
-          "venue": "At Great American Ball Park",
-          "tv": "TV: ROOTNW, FanDuel Sports Ohio",
-          "home_away": "home"
-        }
-      ],
-      "David's Team": [
-        {
-          "title": "Jack Flaherty (Tigers vs Brewers)",
-          "throws": "RHP",
-          "record": "1-0",
-          "era": "1.62",
-          "strikeouts": "21",
-          "game_time": "",
-          "venue": "At American Family Field",
-          "tv": "TV: FanDuel Sports Detroit, FanDuel Sports Wisconsin, WITI FOX-6",
-          "home_away": "away"
-        }
-      ]
-    },
-    "2025-04-16": {
-      "Gabe's Team": [
-        {
-          "title": "Aaron Nola (Phillies vs Giants)",
-          "throws": "RHP",
-          "record": "0-3",
-          "era": "5.51",
-          "strikeouts": "17",
-          "game_time": "",
-          "venue": "At Citizens Bank Park",
-          "tv": "TV: NBCSP, NBCS BA",
-          "home_away": "home"
-        }
-      ],
-      "Matt's Team": [
-        {
-          "title": "Robbie Ray (Giants vs Phillies)",
-          "throws": "LHP",
-          "record": "3-0",
-          "era": "2.93",
-          "strikeouts": "13",
-          "game_time": "",
-          "venue": "At Citizens Bank Park",
-          "tv": "TV: NBCSP, NBCS BA",
+          "tv": "TV: Amazon Prime Video, Padres.TV, MLBN",
           "home_away": "away"
         },
         {
-          "title": "Brandon Pfaadt (D-backs vs Marlins)",
+          "title": "Michael Wacha (Royals vs White Sox)",
           "throws": "RHP",
-          "record": "2-1",
-          "era": "3.50",
-          "strikeouts": "12",
+          "record": "1-4",
+          "era": "3.52",
+          "strikeouts": "29",
           "game_time": "",
-          "venue": "At loanDepot park",
-          "tv": "TV: FanDuel Sports Florida, Dbacks.TV",
-          "home_away": "away"
-        }
-      ],
-      "Nate's Team": [
-        {
-          "title": "Nick Pivetta (Padres vs Cubs)",
-          "throws": "RHP",
-          "record": "2-1",
-          "era": "1.59",
-          "strikeouts": "18",
-          "game_time": "",
-          "venue": "At Petco Park",
-          "tv": "TV: Marquee Sports Network, Padres.TV",
-          "home_away": "home"
-        },
-        {
-          "title": "Jos\u00e9 Soriano (Angels vs Rangers)",
-          "throws": "RHP",
-          "record": "2-1",
-          "era": "2.70",
-          "strikeouts": "18",
-          "game_time": "",
-          "venue": "At Globe Life Field",
-          "tv": "TV: FanDuel Sports West, Rangers Sports Network, Victory+",
-          "home_away": "away"
-        },
-        {
-          "title": "Max Meyer (Marlins vs D-backs)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "2.00",
-          "strikeouts": "19",
-          "game_time": "",
-          "venue": "At loanDepot park",
-          "tv": "TV: FanDuel Sports Florida, Dbacks.TV",
-          "home_away": "home"
-        }
-      ],
-      "50 Shades of Greene": [
-        {
-          "title": "Kris Bubic (Royals vs Yankees)",
-          "throws": "LHP",
-          "record": "2-1",
-          "era": "0.96",
-          "strikeouts": "21",
-          "game_time": "",
-          "venue": "At Yankee Stadium",
-          "tv": "TV: Amazon Prime Video, FanDuel Sports Kansas City",
-          "home_away": "away"
-        },
-        {
-          "title": "Bryce Miller (Mariners vs Reds)",
-          "throws": "RHP",
-          "record": "0-2",
-          "era": "4.50",
-          "strikeouts": "13",
-          "game_time": "",
-          "venue": "At Great American Ball Park",
-          "tv": "TV: ROOTNW, FanDuel Sports Ohio, FS1",
-          "home_away": "away"
-        },
-        {
-          "title": "Mitchell Parker (Nationals vs Pirates)",
-          "throws": "LHP",
-          "record": "2-0",
-          "era": "1.96",
-          "strikeouts": "10",
-          "game_time": "",
-          "venue": "At PNC Park",
-          "tv": "TV: SportsNet-PIT, MASN",
-          "home_away": "away"
-        }
-      ],
-      "Jahn's Team": [
-        {
-          "title": "Chris Bassitt (Blue Jays vs Braves)",
-          "throws": "RHP",
-          "record": "1-0",
-          "era": "0.98",
-          "strikeouts": "21",
-          "game_time": "",
-          "venue": "At Rogers Centre",
-          "tv": "TV: Sportsnet, FanDuel Sports South, FanDuel Sports Southeast",
-          "home_away": "home"
-        },
-        {
-          "title": "Gavin Williams (Guardians vs Orioles)",
-          "throws": "RHP",
-          "record": "1-0",
-          "era": "3.46",
-          "strikeouts": "14",
-          "game_time": "",
-          "venue": "At Oriole Park at Camden Yards",
-          "tv": "TV: Guardians TV Presented by Progressive, MASN 2",
-          "home_away": "away"
-        },
-        {
-          "title": "Spencer Strider (Braves vs Blue Jays)",
-          "throws": "RHP",
-          "record": "0-0",
-          "era": "",
-          "strikeouts": "0",
-          "game_time": "",
-          "venue": "At Rogers Centre",
-          "tv": "TV: Sportsnet, FanDuel Sports South, FanDuel Sports Southeast",
-          "home_away": "away"
-        }
-      ],
-      "Dawson's Team": [
-        {
-          "title": "Matthew Boyd (Cubs vs Padres)",
-          "throws": "LHP",
-          "record": "1-1",
-          "era": "1.59",
-          "strikeouts": "17",
-          "game_time": "",
-          "venue": "At Petco Park",
-          "tv": "TV: Marquee Sports Network, Padres.TV",
-          "home_away": "away"
-        },
-        {
-          "title": "Clarke Schmidt (Yankees vs Royals)",
-          "throws": "RHP",
-          "record": "0-0",
-          "era": "",
-          "strikeouts": "0",
-          "game_time": "",
-          "venue": "At Yankee Stadium",
-          "tv": "TV: Amazon Prime Video, FanDuel Sports Kansas City",
-          "home_away": "home"
-        }
-      ],
-      "David's Team": [
-        {
-          "title": "Zack Littell (Rays vs Red Sox)",
-          "throws": "RHP",
-          "record": "0-3",
-          "era": "6.88",
-          "strikeouts": "14",
-          "game_time": "",
-          "venue": "At George M. Steinbrenner Field",
-          "tv": "TV: NESN, FanDuel Sports Sun",
-          "home_away": "home"
-        },
-        {
-          "title": "Ronel Blanco (Astros vs Cardinals)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "6.94",
-          "strikeouts": "16",
-          "game_time": "",
-          "venue": "At Busch Stadium",
-          "tv": "TV: Space City Home Network, FanDuel Sports Midwest",
-          "home_away": "away"
-        }
-      ]
-    },
-    "2025-04-17": {
-      "Matt's Team": [
-        {
-          "title": "Brady Singer (Reds vs Mariners)",
-          "throws": "RHP",
-          "record": "3-0",
-          "era": "3.18",
-          "strikeouts": "18",
-          "game_time": "",
-          "venue": "At Great American Ball Park",
-          "tv": "TV: ROOTNW, FanDuel Sports Ohio",
-          "home_away": "home"
-        },
-        {
-          "title": "Tanner Bibee (Guardians vs Orioles)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "4.40",
-          "strikeouts": "10",
-          "game_time": "",
-          "venue": "At Oriole Park at Camden Yards",
-          "tv": "TV: MASN, Guardians TV Presented by Progressive",
-          "home_away": "away"
-        }
-      ],
-      "WhatchYusei": [
-        {
-          "title": "Jordan Hicks (Giants vs Phillies)",
-          "throws": "RHP",
-          "record": "1-1",
-          "era": "5.87",
-          "strikeouts": "14",
-          "game_time": "",
-          "venue": "At Citizens Bank Park",
-          "tv": "TV: NBCS BA, NBCSP+",
-          "home_away": "away"
-        }
-      ],
-      "Mr. Castillo Girl": [
-        {
-          "title": "Andrew Heaney (Pirates vs Nationals)",
-          "throws": "LHP",
-          "record": "0-1",
-          "era": "3.00",
-          "strikeouts": "18",
-          "game_time": "",
-          "venue": "At PNC Park",
-          "tv": "TV: MASN, SportsNet-PIT",
+          "venue": "At Kauffman Stadium",
+          "tv": "TV: FanDuel Sports Network Kansas City, CHSN",
           "home_away": "home"
         }
       ],
       "Woo-Tang Clan": [
         {
-          "title": "Bryan Woo (Mariners vs Reds)",
+          "title": "Bryan Woo (Mariners vs Athletics)",
           "throws": "RHP",
-          "record": "2-0",
-          "era": "2.84",
-          "strikeouts": "18",
+          "record": "4-1",
+          "era": "2.58",
+          "strikeouts": "38",
           "game_time": "",
-          "venue": "At Great American Ball Park",
-          "tv": "TV: ROOTNW, FanDuel Sports Ohio",
+          "venue": "At Sutter Health Park",
+          "tv": "TV: NBCSCA, ROOTNW",
+          "home_away": "away"
+        }
+      ],
+      "Sweet Bibee Rays": [
+        {
+          "title": "Robbie Ray (Giants vs Cubs)",
+          "throws": "LHP",
+          "record": "4-0",
+          "era": "3.05",
+          "strikeouts": "41",
+          "game_time": "",
+          "venue": "At Wrigley Field",
+          "tv": "TV: NBCS BA, Marquee Sports Network",
+          "home_away": "away"
+        }
+      ],
+      "50 Shades of Greene": [
+        {
+          "title": "Shane Baz (Rays vs Phillies)",
+          "throws": "RHP",
+          "record": "3-1",
+          "era": "3.86",
+          "strikeouts": "37",
+          "game_time": "",
+          "venue": "At George M. Steinbrenner Field",
+          "tv": "TV: NBCSP, FanDuel Sports Network Sun",
+          "home_away": "home"
+        },
+        {
+          "title": "Grant Holmes (Braves vs Reds)",
+          "throws": "RHP",
+          "record": "2-2",
+          "era": "4.24",
+          "strikeouts": "35",
+          "game_time": "",
+          "venue": "At Truist Park",
+          "tv": "TV: FanDuel Sports Network Ohio, FanDuel Sports Network South, FanDuel Sports Network Southeast, MLBN (out-of-market only)",
+          "home_away": "home"
+        },
+        {
+          "title": "Hunter Greene (Reds vs Braves)",
+          "throws": "RHP",
+          "record": "4-2",
+          "era": "2.53",
+          "strikeouts": "55",
+          "game_time": "",
+          "venue": "At Truist Park",
+          "tv": "TV: FanDuel Sports Network Ohio, FanDuel Sports Network South, FanDuel Sports Network Southeast, MLBN (out-of-market only)",
+          "home_away": "away"
+        },
+        {
+          "title": "Tyler Mahle (Rangers vs Red Sox)",
+          "throws": "RHP",
+          "record": "3-1",
+          "era": "1.19",
+          "strikeouts": "32",
+          "game_time": "",
+          "venue": "At Fenway Park",
+          "tv": "TV: Rangers Sports Network, NESN, Victory+",
+          "home_away": "away"
+        }
+      ],
+      "WhatchYusei": [
+        {
+          "title": "Merrill Kelly (D-backs vs Mets)",
+          "throws": "RHP",
+          "record": "3-1",
+          "era": "4.06",
+          "strikeouts": "27",
+          "game_time": "",
+          "venue": "At Chase Field",
+          "tv": "TV: Dbacks.TV, SNY",
+          "home_away": "home"
+        },
+        {
+          "title": "Kodai Senga (Mets vs D-backs)",
+          "throws": "RHP",
+          "record": "3-2",
+          "era": "1.38",
+          "strikeouts": "31",
+          "game_time": "",
+          "venue": "At Chase Field",
+          "tv": "TV: Dbacks.TV, SNY",
+          "home_away": "away"
+        },
+        {
+          "title": "Yusei Kikuchi (Angels vs Blue Jays)",
+          "throws": "LHP",
+          "record": "0-4",
+          "era": "4.21",
+          "strikeouts": "33",
+          "game_time": "",
+          "venue": "At Angel Stadium",
+          "tv": "TV: SN1, FanDuel Sports Network West",
+          "home_away": "home"
+        }
+      ],
+      "Clase Closers": [
+        {
+          "title": "Sonny Gray (Cardinals vs Pirates)",
+          "throws": "RHP",
+          "record": "3-1",
+          "era": "4.12",
+          "strikeouts": "39",
+          "game_time": "",
+          "venue": "At Busch Stadium",
+          "tv": "TV: SportsNet-PIT, FanDuel Sports Network Midwest, MLBN (out-of-market only)",
+          "home_away": "home"
+        },
+        {
+          "title": "Tanner Houck (Red Sox vs Rangers)",
+          "throws": "RHP",
+          "record": "0-2",
+          "era": "6.38",
+          "strikeouts": "30",
+          "game_time": "",
+          "venue": "At Fenway Park",
+          "tv": "TV: Rangers Sports Network, NESN, Victory+",
+          "home_away": "home"
+        }
+      ],
+      "Dawson's Team": [
+        {
+          "title": "Max Fried (Yankees vs Padres)",
+          "throws": "LHP",
+          "record": "6-0",
+          "era": "1.01",
+          "strikeouts": "39",
+          "game_time": "",
+          "venue": "At Yankee Stadium",
+          "tv": "TV: Amazon Prime Video, Padres.TV, MLBN",
+          "home_away": "home"
+        },
+        {
+          "title": "Casey Mize (Tigers vs Rockies)",
+          "throws": "RHP",
+          "record": "5-1",
+          "era": "2.70",
+          "strikeouts": "27",
+          "game_time": "",
+          "venue": "At Coors Field",
+          "tv": "TV: Rockies.TV, FanDuel Sports Network Detroit",
           "home_away": "away"
         }
       ],
       "Jahn's Team": [
         {
-          "title": "Cristopher S\u00e1nchez (Phillies vs Giants)",
+          "title": "Cristopher S\u00e1nchez (Phillies vs Rays)",
           "throws": "LHP",
-          "record": "1-0",
-          "era": "3.12",
-          "strikeouts": "19",
+          "record": "3-1",
+          "era": "3.45",
+          "strikeouts": "39",
           "game_time": "",
-          "venue": "At Citizens Bank Park",
-          "tv": "TV: NBCS BA, NBCSP+",
+          "venue": "At George M. Steinbrenner Field",
+          "tv": "TV: NBCSP, FanDuel Sports Network Sun",
+          "home_away": "away"
+        }
+      ],
+      "David's Team": [
+        {
+          "title": "Framber Valdez (Astros vs Brewers)",
+          "throws": "LHP",
+          "record": "1-4",
+          "era": "4.39",
+          "strikeouts": "37",
+          "game_time": "",
+          "venue": "At American Family Field",
+          "tv": "TV: Space City Home Network, FanDuel Sports Network Wisconsin, MLBN (out-of-market only)",
+          "home_away": "away"
+        }
+      ]
+    },
+    "2025-05-11": {
+      "Woo-Tang Clan": [
+        {
+          "title": "Miles Mikolas (Cardinals vs Nationals)",
+          "throws": "RHP",
+          "record": "1-2",
+          "era": "4.76",
+          "strikeouts": "18",
+          "game_time": "",
+          "venue": "At Nationals Park",
+          "tv": "TV: MASN, FanDuel Sports Network Midwest",
+          "home_away": "away"
+        }
+      ],
+      "Ian's Team": [
+        {
+          "title": "Shane Smith (White Sox vs Marlins)",
+          "throws": "RHP",
+          "record": "1-2",
+          "era": "2.41",
+          "strikeouts": "31",
+          "game_time": "",
+          "venue": "At Rate Field",
+          "tv": "TV: FanDuel Sports Network Florida, CHSN",
           "home_away": "home"
         }
       ]
     },
-    "2025-04-18": {
-      "Mr. Castillo Girl": [
+    "2025-05-10": {
+      "Sweet Bibee Rays": [
         {
-          "title": "Zack Wheeler (Phillies vs Marlins)",
+          "title": "Brady Singer (Reds vs Astros)",
           "throws": "RHP",
-          "record": "1-1",
-          "era": "4.07",
+          "record": "4-2",
+          "era": "3.66",
+          "strikeouts": "38",
+          "game_time": "",
+          "venue": "At Daikin Park",
+          "tv": "TV: Space City Home Network, FanDuel Sports Network Ohio",
+          "home_away": "away"
+        },
+        {
+          "title": "Tanner Bibee (Guardians vs Phillies)",
+          "throws": "RHP",
+          "record": "3-2",
+          "era": "4.26",
           "strikeouts": "28",
           "game_time": "",
-          "venue": "At Citizens Bank Park",
-          "tv": "TV: FanDuel Sports Florida, NBCSP, WBFS-TV",
+          "venue": "At Progressive Field",
+          "tv": "TV: NBCSP, Guardians TV Presented by Progressive",
+          "home_away": "home"
+        }
+      ]
+    },
+    "2025-05-09": {
+      "Jahn's Team": [
+        {
+          "title": "Gavin Williams (Guardians vs Phillies)",
+          "throws": "RHP",
+          "record": "2-2",
+          "era": "5.06",
+          "strikeouts": "37",
+          "game_time": "",
+          "venue": "At Progressive Field",
+          "tv": "TV: Guardians TV Presented by Progressive, NBCSP",
           "home_away": "home"
         }
       ]
