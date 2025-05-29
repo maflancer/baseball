@@ -51,17 +51,24 @@ def load_team_mapping() -> Dict[str, str]:
 
 def normalize_name(name: str) -> str:
     """Normalize team name for fuzzy matching."""
-    # Convert to lowercase and replace problematic characters
+    # Convert to lowercase
     normalized = name.lower()
     
-    # Replace various apostrophe types with standard one
-    apostrophes = [''', ''', '`', '´', '�']
-    for apostrophe in apostrophes:
-        normalized = normalized.replace(apostrophe, "'")
+    # Replace ALL possible apostrophe/quote variants with standard apostrophe
+    apostrophe_variants = [
+        ''', ''', '`', '´', '′', '‛', '‚', '„', '"', '"', 
+        '«', '»', '‹', '›', '‟', '‖', '⁇', '⁈', '⁉', 
+        '\u2019', '\u2018', '\u0060', '\u00B4', '\u2032',
+        '\u201B', '\u201A', '\u201E', '\u201C', '\u201D',
+        '�'  # replacement character
+    ]
+    
+    for variant in apostrophe_variants:
+        normalized = normalized.replace(variant, "'")
     
     # Replace various dash types with standard one
-    dashes = ['–', '—', '−']
-    for dash in dashes:
+    dash_variants = ['–', '—', '−', '\u2013', '\u2014', '\u2212']
+    for dash in dash_variants:
         normalized = normalized.replace(dash, '-')
     
     # Remove extra whitespace
@@ -99,7 +106,6 @@ def sanitize_team_name(name: str, mapping: Dict[str, str]) -> str:
     # If no match found, return original name
     print(f"DEBUG: No match found for: '{name}'")
     return name
-
 def get_team_key(week, matchup_id, team):
     """Extract team key from week data."""
     return week["fantasy_content"]["league"][1]["scoreboard"]["0"]["matchups"][
