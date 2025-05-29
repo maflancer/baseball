@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 # Constants
 CURRENT_YEAR = datetime.now().year
-OUTPUT_FILE = f"public/data/stats_{CURRENT_YEAR}.csv"
+OUTPUT_FILE = f"public/data/test_stats_{CURRENT_YEAR}.csv"
 
 # Yahoo Fantasy stat ID mapping
 STAT_IDS = {
