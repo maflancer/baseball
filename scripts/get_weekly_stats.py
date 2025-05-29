@@ -71,18 +71,33 @@ def normalize_name(name: str) -> str:
 
 def sanitize_team_name(name: str, mapping: Dict[str, str]) -> str:
     """Sanitize team name using fuzzy mapping dictionary."""
+    # Print debug info
+    print(f"DEBUG: Processing team name: '{name}' (length: {len(name)})")
+    
     # First try exact match
     if name in mapping:
+        print(f"DEBUG: Exact match found: '{name}' -> '{mapping[name]}'")
         return mapping[name]
+    
+    # Print all mapping keys for comparison
+    print(f"DEBUG: Available mapping keys:")
+    for key in mapping.keys():
+        print(f"  '{key}' (length: {len(key)})")
     
     # If no exact match, try fuzzy matching
     normalized_input = normalize_name(name)
+    print(f"DEBUG: Normalized input: '{normalized_input}'")
     
     for original_name, clean_name in mapping.items():
-        if normalize_name(original_name) == normalized_input:
+        normalized_original = normalize_name(original_name)
+        print(f"DEBUG: Comparing '{normalized_input}' with '{normalized_original}'")
+        
+        if normalized_original == normalized_input:
+            print(f"DEBUG: Fuzzy match found: '{name}' -> '{clean_name}'")
             return clean_name
     
     # If no match found, return original name
+    print(f"DEBUG: No match found for: '{name}'")
     return name
 
 def get_team_key(week, matchup_id, team):
