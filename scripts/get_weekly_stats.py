@@ -49,9 +49,41 @@ def load_team_mapping() -> Dict[str, str]:
         logger.warning("Invalid team name mapping JSON, using empty mapping")
         return {}
 
+def normalize_name(name: str) -> str:
+    """Normalize team name for fuzzy matching."""
+    # Convert to lowercase and replace problematic characters
+    normalized = name.lower()
+    
+    # Replace various apostrophe types with standard one
+    apostrophes = [''', ''', '`', '´', '�']
+    for apostrophe in apostrophes:
+        normalized = normalized.replace(apostrophe, "'")
+    
+    # Replace various dash types with standard one
+    dashes = ['–', '—', '−']
+    for dash in dashes:
+        normalized = normalized.replace(dash, '-')
+    
+    # Remove extra whitespace
+    normalized = ' '.join(normalized.split())
+    
+    return normalized
+
 def sanitize_team_name(name: str, mapping: Dict[str, str]) -> str:
-    """Sanitize team name using mapping dictionary."""
-    return mapping.get(name, name)
+    """Sanitize team name using fuzzy mapping dictionary."""
+    # First try exact match
+    if name in mapping:
+        return mapping[name]
+    
+    # If no exact match, try fuzzy matching
+    normalized_input = normalize_name(name)
+    
+    for original_name, clean_name in mapping.items():
+        if normalize_name(original_name) == normalized_input:
+            return clean_name
+    
+    # If no match found, return original name
+    return name
 
 def get_team_key(week, matchup_id, team):
     """Extract team key from week data."""
