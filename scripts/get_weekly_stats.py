@@ -86,9 +86,7 @@ def sanitize_team_name(name: str, mapping: Dict[str, str]) -> str:
         normalized_original = normalize_name(original_name)
         if normalized_original == normalized_input:
             return clean_name
-    
-    # If no match found, return original name
-    print(f"DEBUG: No match found for: '{name}'")
+        
     return name
 
 def get_team_key(week, matchup_id, team):

@@ -5,8 +5,8 @@ Calculate weekly stat leaders.
 
 import pandas as pd
 import csv
-import datetime
 import logging
+from datetime import datetime
 from pathlib import Path
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
