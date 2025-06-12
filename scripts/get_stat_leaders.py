@@ -68,6 +68,15 @@ def get_stat_leaders(stats, week: int) -> list:
     return stat_leaders
 
 def main():
+    logger.info("=== STARTING STAT LEADERS SCRIPT ===")
+    logger.info(f"Looking for input file: {INPUT_FILE}")
+    logger.info(f"Will output to: {OUTPUT_FILE}")
+    
+    # Check if input file exists
+    if not Path(INPUT_FILE).exists():
+        logger.error(f"Input file {INPUT_FILE} does not exist!")
+        return
+        
     try:
         stats = pd.read_csv(INPUT_FILE, encoding="utf-8")
     except UnicodeDecodeError:
