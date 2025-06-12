@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-Fantasy Baseball Weekly Stats Extractor
 Extracts weekly matchup statistics from Yahoo Fantasy Baseball API.
 """
 
@@ -15,13 +14,11 @@ from typing import Dict, List, Any, Optional
 from yahoo_oauth import OAuth2
 import yahoo_fantasy_api as yfa
 
-# Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Constants
 CURRENT_YEAR = datetime.now().year
-OUTPUT_FILE = f"public/data/test_stats_{CURRENT_YEAR}.csv"
+OUTPUT_FILE = f"public/data/stats_{CURRENT_YEAR}.csv"
 
 # Yahoo Fantasy stat ID mapping
 STAT_IDS = {
@@ -93,6 +90,7 @@ def sanitize_team_name(name: str, mapping: Dict[str, str]) -> str:
     # If no match found, return original name
     print(f"DEBUG: No match found for: '{name}'")
     return name
+
 def get_team_key(week, matchup_id, team):
     """Extract team key from week data."""
     return week["fantasy_content"]["league"][1]["scoreboard"]["0"]["matchups"][
