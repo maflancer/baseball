@@ -102,3 +102,6 @@ def main():
         dict_writer.writerows(leaders)
     
     logger.info(f"Exported {len(leaders)} leader records to {OUTPUT_FILE}")
+
+if __name__ == "__main__":
+    main()
